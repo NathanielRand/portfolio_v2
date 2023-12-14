@@ -1,4 +1,22 @@
-<div class="external">
+<script>
+    const colors = [];
+
+    // Generate 5 random colors
+    for (let i = 0; i < 5; i++) {
+    const r = Math.floor(Math.random() * 256);
+    const g = Math.floor(Math.random() * 256);
+    const b = Math.floor(Math.random() * 256);
+    const randomColor = `rgb(${r}, ${g}, ${b})`;
+    colors.push(randomColor);
+    }
+
+    // Use the random colors in box-shadow
+    const randomBoxShadow = `0 10px 50px ${colors[Math.floor(Math.random() * colors.length)]}`;
+
+    console.log(randomBoxShadow); // Output: "0 10px 50px rgb(123, 45, 178)"
+</script>
+
+<div class="external bg-primary-200">
     <div class="horizontal-scroll-wrapper">
         <div class="img-wrapper slower">
             <a href="https://altphotos.com/photo/stylish-parisian-cafe-terrace-279/" target="_blank" rel="noopener"><img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/74321/paris-cafe-terrace.jpg" alt="">
@@ -74,136 +92,149 @@
 </div>
   
 <style>
-    /* Inspired by this pen by Pieter Biesemans https://codepen.io/pieter-biesemans/pen/BQBWXX and My Mother Before Me project http://mymotherbeforeme.com/ */
 
-    body {
-    font-family: Hepta Slab, sans-serif;
-    font-weight: 500;
-    background: #efecdb;
-    color: #5D4037;
+    /* body {	
+        background: linear-gradient(to right, #111827, #3b445c );
+        background-size: 100%;
+        background-repeat: no-repeat;
     }
+
+    body:before{
+        content:'';
+        position: fixed;
+        top: 0;
+        bottom: 0;
+        width: 100%;
+        z-index: -1;
+        background: linear-gradient(to right bottom, rgba(255,255,255,0.2), #21D4FD 75%);
+    } */
+
     * {
-    box-sizing: border-box;
+        box-sizing: border-box;
     }
 
     /* hide scrollbar */
     ::-webkit-scrollbar {
-    width: 1px;
-    height: 1px;
+        width: 1px;
+        height: 1px;
     }
 
     ::-webkit-scrollbar-button {
-    width: 1px;
-    height: 1px;
+        width: 1px;
+        height: 1px;
     }
     .external {
-    overflow: hidden;
-    height: 100vh;
+        overflow: hidden;
+        height: 100vh;
     }
 
     .horizontal-scroll-wrapper {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    width: 100vh;
-    transform: rotate(-90deg) translate3d(0,-100vh,0);
-    transform-origin: right top;
-    overflow-y: auto;
-    overflow-x: hidden;
-    padding: 0;
-    height: 100vw;
-    perspective: 1px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100vh;
+        transform: rotate(-90deg) translate3d(0,-100vh,0);
+        transform-origin: right top;
+        overflow-y: auto;
+        overflow-x: hidden;
+        padding: 0;
+        height: 100vw;
+        perspective: 1px;
         transform-style: preserve-3d;
-    padding-bottom: 10rem;
+        padding-bottom: 10rem;
     }
     .img-wrapper {
-    transform: rotate(90deg);
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    min-height: 40vh;
-    transform-origin: 50% 50%;
-    transform: rotate(90deg) translateZ(.1px) scale(0.9) translateX(0px) translateY(-3vh);
-    transition: 1s;
+        transform: rotate(90deg);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        min-height: 40vh;
+        transform-origin: 50% 50%;
+        transform: rotate(90deg) translateZ(.1px) scale(0.9) translateX(0px) translateY(-3vh);
+        transition: 1s;
     }
 
     .img-wrapper:hover {
-    min-height: 65vh;
+        min-height: 65vh;
     }
 
     .slower {
-    transform: rotate(90deg) translateZ(-.2px) scale(1.1) translateX(0%) translateY(-10vh);
+        transform: rotate(90deg) translateZ(-.2px) scale(1.1) translateX(0%) translateY(-10vh);
     }
     .slower1 {
-    transform: rotate(90deg) translateZ(-.25px) scale(1.05) translateX(0%) translateY(8vh);
+        transform: rotate(90deg) translateZ(-.25px) scale(1.05) translateX(0%) translateY(8vh);
     }
     .slower2 {
-    transform: rotate(90deg) translateZ(-.3px) scale(1.3) translateX(0%) translateY(2vh);
+        transform: rotate(90deg) translateZ(-.3px) scale(1.3) translateX(0%) translateY(2vh);
     }
     .slower-down {
-    transform: rotate(90deg) translateZ(-.2px) scale(1.1) translateX(0%) translateY(16vh) ;
+        transform: rotate(90deg) translateZ(-.2px) scale(1.1) translateX(0%) translateY(16vh) ;
     }
     .faster {
-    transform: rotate(90deg) translateZ(.15px) scale(0.8) translateX(0%) translateY(14vh) ;
+        transform: rotate(90deg) translateZ(.15px) scale(0.8) translateX(0%) translateY(14vh) ;
     }
     .faster1 {
-    transform: rotate(90deg) translateZ(.05px) scale(0.8) translateX(0%) translateY(10vh) ;
+        transform: rotate(90deg) translateZ(.05px) scale(0.8) translateX(0%) translateY(10vh) ;
     }
     .fastest {
-    transform: rotate(90deg) translateZ(.22px) scale(0.7) translateX(-10vh) translateY(-15vh) ;
+        transform: rotate(90deg) translateZ(.22px) scale(0.7) translateX(-10vh) translateY(-15vh) ;
     }
     .vertical {
-    transform: rotate(90deg) translateZ(-.15px) scale(1.15) translateX(0%) translateY(0%) ;
+        transform: rotate(90deg) translateZ(-.15px) scale(1.15) translateX(0%) translateY(0%) ;
     }
     .last {
-    transform: rotate(90deg) translateZ(-.2px) scale(1.1) translateX(25vh) translateY(-8vh) ;
+        transform: rotate(90deg) translateZ(-.2px) scale(1.1) translateX(25vh) translateY(-8vh) ;
     }
     .scroll-info, header {
-    position: absolute;
-    left: 1rem;
+        position: absolute;
+        left: 1rem;
     }
 
 
     header {
-    bottom: 1rem;
+        bottom: 1rem;
     }
-    .scroll-info {
-    top: 1rem;
-    }
+
     a {
-    color: inherit;
-    font-weight: 500;
-    
+        color: inherit;
+        font-weight: 500;
     }
+
     h1 {
-    font-weight: 300;
-    font-size: 1rem;
+        font-weight: 300;
+        font-size: 1rem;
     }
 
     .img-wrapper a {
-    overflow: hidden;
-    display: block;
-    padding: 1vh ;
-    background: #efecdb;
-    box-shadow: 0 10px 50px #5f2f1182;
+        overflow: hidden;
+        display: block;
+        padding: 1vh ;
+        background: #efecdb;
+        box-shadow: 0 10px 50px #c5a90882;
     }
+
     img {
-    max-width: 45vh;
-    max-height: 50vh;
-    transition: .5s;
-    vertical-align: top;
-    filter: saturate(40%) sepia(30%) hue-rotate(5deg);
+        max-width: 45vh;
+        max-height: 50vh;
+        transition: .5s;
+        vertical-align: top;
+        filter: saturate(40%) sepia(30%) hue-rotate(5deg);
     }
+
     a:hover img {
-    filter: none;
+        filter: none;
     }
+
     p {
-    margin: 0;
+        margin: 0;
     }
+
     .scroll-info {
-    display: flex;
-    align-items: center;
+        display: flex;
+        align-items: center;
+        top: 1rem;
     }
+
     .icon svg {
         width: 50px;
         fill: currentcolor;
