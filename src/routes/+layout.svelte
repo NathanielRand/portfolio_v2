@@ -2,7 +2,7 @@
     import "../app.pcss";
 </script>
 
-<nav class="bg-transparent fixed w-full z-20 top-0 start-0 border-b border-secondary-100">
+<nav class="bg-transparent fixed w-full z-20 top-0 start-0 border-b border-transparent">
     <div class="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
         <a href="/#section-0" class="flex items-center space-x-3 rtl:space-x-reverse">
             <span class="self-center text-4xl font-black whitespace-nowrap text-white tracking-wide">RAND</span>
