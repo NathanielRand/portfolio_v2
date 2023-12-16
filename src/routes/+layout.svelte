@@ -8,7 +8,7 @@
             <span class="self-center text-4xl font-black whitespace-nowrap text-white tracking-wide">RAND</span>
         </a>
         <div class="flex md:order-2 space-x-3 md:space-x-0 rtl:space-x-reverse">
-            <a href="/#section-5" type="button" class="text-white border border-primary-50 hover:bg-primary-100 font-bold uppercase tracking-widest rounded-full text-sm px-5 py-2.5 text-center">Contact</a>
+            <a href="/#section-7" type="button" class="text-white border border-primary-50 hover:bg-primary-100 font-bold uppercase tracking-widest rounded-full text-sm px-5 py-2.5 text-center">Contact</a>
             <button data-collapse-toggle="navbar-sticky" type="button" class="inline-flex items-center p-2 w-10 h-10 justify-center text-sm text-gray-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600" aria-controls="navbar-sticky" aria-expanded="false">
                 <span class="sr-only">Open main menu</span>
                 <svg class="w-5 h-5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 17 14">
@@ -28,7 +28,7 @@
                     <a href="/#section-3" class="block py-2 px-3 font-extrabold text-xl text-white rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-accent-100 md:p-0">Work</a>
                 </li>
                 <li>
-                    <a href="/#section-4" class="block py-2 px-3 font-extrabold text-xl text-white rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-accent-100 md:p-0">Testimonials</a>
+                    <a href="/#section-6" class="block py-2 px-3 font-extrabold text-xl text-white rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-accent-100 md:p-0">Testimonials</a>
                 </li>                
             </ul>
         </div>

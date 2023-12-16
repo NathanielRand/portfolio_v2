@@ -12,17 +12,55 @@
 	import dontdelete_desktop from '$lib/assets/images/dontdelete_desktop.png';
 	import dontdelete_mobile from '$lib/assets/images/dontdelete_mobile.png';
 
-	// import { onMount, onDestroy } from "svelte";
 
-    let scroll = 0;
-	let cursorX = 0;
-	let cursorY = 0;
+	import { onMount } from 'svelte';
+	let activeSection = '';
 
+	// Map each section to its corresponding class
+	const sectionClasses = {
+		'section-0': 'text-primary-50',
+		'section-1': 'text-primary-200',
+		'section-2': 'text-secondary-100',
+		'section-3': 'text-accent-100',
+		'section-4': 'text-primary-100',
+		'section-5': 'text-primary-200',
+		'section-6': 'text-accent-100',
+		'section-7': 'text-primary-100',
+	};
+
+	onMount(() => {
+		const options = {
+			root: null,
+			rootMargin: '0px',
+			threshold: 0.5,
+		};
+
+		const handleIntersection = (entries) => {
+			entries.forEach((entry) => {
+				if (entry.isIntersecting) {
+					activeSection = entry.target.id;
+				}
+			});
+		};
+
+		const observer = new IntersectionObserver(handleIntersection, options);
+			document.querySelectorAll('section').forEach((section) => {
+			observer.observe(section);
+		});
+
+		return () => {
+			observer.disconnect();
+		};
+	});
 </script>
-  
-<svelte:window bind:scrollY={scroll} />
-<!-- <h1 style="color: white;">Scroll Position: {scroll}</h1> -->
-<h6 id="side-text-overlay" class="text-primary-50 tracking-widest lg:m-10 lg:mr-35 text-lg lg:text-3xl font-thin underline underline-offset-8 decoration-1">Nathaniel Rand Portfolio</h6>
+
+<h6
+  id="side-text-overlay"
+  class="tracking-widest lg:m-10 lg:mr-35 text-lg lg:text-3xl font-thin underline underline-offset-8 decoration-1 {sectionClasses[activeSection]}"
+>
+  Nathaniel Rand Portfolio
+</h6>
+
 <!-- Slider indicators
 <div class="absolute z-10 flex -translate-x-1/2 bottom-5 left-1/2 space-x-3 rtl:space-x-reverse">
 	<button type="button" class="w-3 h-3 rounded-full" aria-current="true" aria-label="Slide 1" data-carousel-slide-to="0"></button>
@@ -66,7 +104,7 @@
 			</div>
 		</div>
 	</section>
-	<section id="section-1" data-color="primary-50">
+	<section id="section-1" data-color="secondary-100">
 		<div class="snap-center bg-primary-50 h-screen flex items-center justify-center text-8xl">
 			<div class="container lg:px-48 pt-36">
 				<h3 class="text-8xl text-accent-100 font-black mb-8 uppercase">About Me</h3>
@@ -97,7 +135,7 @@
 			</div>
 		</div>
 	</section>
-	<section id="section-2" data-color="primary-100">
+	<section id="section-2" data-color="secondary-100">
 		<div class="snap-center bg-accent-100 h-screen flex items-center justify-center text-8xl">
 			<div class="grid grid-cols-12 grid-rows-4 gap-0">
 				<div class="col-span-12">
@@ -124,7 +162,7 @@
 			</div>
 		</div>
 	</section>
-	<section id="section-3" data-color="primary-100">
+	<section id="section-3" data-color="secondary-100">
 		<div class="snap-center bg-primary-100 h-screen flex items-center justify-center text-8xl">
 			<div class="grid grid-cols-12">
 				<div class="col-span-12">
@@ -174,7 +212,7 @@
 			</div>
 		</div>
 	</section>
-	<section id="section-3" data-color="secondary-100">
+	<section id="section-4" data-color="accent-100">
 		<div class="snap-center bg-secondary-100 h-screen flex items-center justify-center text-8xl">
 			<div class="grid grid-cols-12">
 				<div class="col-span-12">
@@ -225,7 +263,7 @@
 			</div>
 		</div>
 	</section>
-	<section id="section-3" data-color="accent-100">
+	<section id="section-5" data-color="primary-100">
 		<div class="snap-center bg-accent-100 h-screen flex items-center justify-center text-8xl">
 			<div class="grid grid-cols-12">
 				<div class="col-span-12">
@@ -274,7 +312,7 @@
 			</div>
 		</div>
 	</section>
-	<section id="section-4" data-color="primary-200">
+	<section id="section-6" data-color="accent-100">
 		<div class="snap-center bg-primary-200 h-screen flex items-center justify-center text-8xl">
 			<div class="grid grid-cols-12">
 				<div class="col-span-11 col-start-1 pb-32 text-center">
@@ -317,13 +355,13 @@
 			</div>
 		</div>
 	</section>
-	<section id="section-5" data-color="primary-50">
+	<section id="section-7" data-color="accent-100">
 		<div class="snap-center bg-primary-50 h-screen flex items-center justify-center text-8xl">
 			<div class="grid grid-cols-12">
 				<div class="col-span-4 col-start-2">
 					<h3 class="text-9xl text-accent-100 font-black">Contact</h3>
 				</div>
-				<div class="col-span-5">
+				<div class="col-span-5 col-start-7">
 					<div class="card p-12 ring ring-secondary-100 ring-offset-primary-50 ring-2 ring-offset-8 rounded-xl bg-secondary-100">
 						<div class="card-body">
 							<div class="card-title text-8xl font-black mb-14 text-center text-primary-100">
