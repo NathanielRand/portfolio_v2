@@ -319,7 +319,40 @@
 	</section>
 	<section id="section-5" data-color="primary-50">
 		<div class="snap-center bg-primary-50 h-screen flex items-center justify-center text-8xl">
-			<h3 class="text-8xl text-primary-200 font-black">Contact</h3>
+			<div class="grid grid-cols-12">
+				<div class="col-span-4 col-start-2">
+					<h3 class="text-9xl text-accent-100 font-black">Contact</h3>
+				</div>
+				<div class="col-span-5">
+					<div class="card p-12 ring ring-secondary-100 ring-offset-primary-50 ring-2 ring-offset-8 rounded-xl bg-secondary-100">
+						<div class="card-body">
+							<div class="card-title text-8xl font-black mb-14 text-center text-primary-100">
+								Give me a shout
+							</div>
+							<div class="card-content">
+								<form action="https://api.web3forms.com/submit" method="POST" class="max-w-md mx-auto">
+									<input type="hidden" name="access_key" value="a4479c41-a62f-4c3a-87f8-a8d753b56bdb">
+									<input type="hidden" name="subject" value="New Contact from Portfolio Site">
+									<input type="hidden" name="from_name" value="Nathaniel Rand Portfolio">
+									<div class="mb-5">
+										<input type="text" id="name" name="name" placeholder="Name" class="bg-secondary-100 border-2 border-primary-100 text-primary-200 text-sm rounded-xl focus:ring-2 focus:ring-primary-50 focus:ring-offset-4 focus:ring-offset-secondary-100 focus:border-primary-200 block w-full p-2.5" required>
+									</div>
+									<div class="mb-5">
+										<input type="email" id="email" name="email" placeholder="Email" class="bg-secondary-100 border-2 border-primary-100 text-primary-200 text-sm rounded-xl focus:ring-2 focus:ring-primary-50 focus:ring-offset-4 focus:ring-offset-secondary-100 focus:border-primary-200 block w-full p-2.5" required>
+									</div>
+									<div class="mb-0">
+										<textarea id="message" rows="4" name="message" class="bg-secondary-100 border-2 border-primary-100 text-primary-200 text-sm rounded-xl focus:ring-2 focus:ring-primary-50 focus:ring-offset-4 focus:ring-offset-secondary-100 focus:border-primary-200 block w-full p-2.5" placeholder="Write your inquiry here..." required></textarea>
+									</div>
+									<div class="h-captcha" data-captcha="true"></div>
+									<input type="checkbox" name="botcheck" class="hidden" style="display: none;">
+									<button type="submit" class="text-xl text-primary-100 outline bg-secondary-100 hover:text-accent-100 font-medium rounded-xl text-sm w-full sm:w-auto px-5 py-2.5 text-center">Submit</button>
+								</form>
+								<script src="https://web3forms.com/client/script.js" async defer></script>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
 		</div>
 	</section>
 </div>
