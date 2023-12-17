@@ -71,7 +71,7 @@
 </div> -->
 
 <div class="snap-y snap-mandatory h-screen w-screen overflow-scroll">
-	<section id="section-0" data-color="primary-50">
+	<!-- <section id="section-0" data-color="primary-50">
 		<div class="snap-center bg-primary-200 h-screen flex items-center justify-center text-8xl">
 			<div class="container rounded-xl bg-primary-50 ml-6 mr-20 px-0 lg:px-36 w-full md:w-3/5 h-3/5 md:h-fit ring-1 ring-primary-50 ring-offset-8 ring-offset-primary-200">
 				<div class="grid grid-cols-2">
@@ -97,14 +97,14 @@
 						</svg>
 					</div>
 					<div>
-						<!-- <img alt="nathanielrand" src={nathanielrand} class="hidden md:block ml-40 md:ml-0 pb-96 md:mb-0 mt-6 scale-150"> -->
+						<img alt="nathanielrand" src={nathanielrand} class="hidden md:block ml-40 md:ml-0 pb-96 md:mb-0 mt-6 scale-150">
 					</div>
 					
 				</div>
 			</div>
 		</div>
-	</section>
-	<section id="section-1" data-color="secondary-100">
+	</section> -->
+	<!-- <section id="section-1" data-color="secondary-100">
 		<div class="snap-center bg-primary-50 px-4 pt-16 md:pt-0 h-screen flex items-center justify-center text-8xl">
 			<div class="container lg:px-48">
 				<h3 class="text-6xl md:text-8xl text-accent-100 font-black mb-8 uppercase">About Me</h3>
@@ -134,30 +134,34 @@
 
 			</div>
 		</div>
-	</section>
+	</section> -->
 	<section id="section-2" data-color="secondary-100">
-		<div class="snap-center bg-accent-100 h-screen flex items-center justify-center text-8xl">
+		<div class="snap-center bg-accent-100 h-screen flex items-center justify-center text-8xl p-4">
 			<div class="grid grid-cols-12 grid-rows-4 gap-0">
 				<div class="col-span-12">
 					<h3 class="text-6xl font-black text-primary-200 hover:text-primary-100 rounded-xl border-l-4 border-secondary-100 p-4">Services</h3>
 				</div>
-				<div class="col-span-7 font-black text-secondary-100 hover:text-primary-200 hover:scale-110 pr-12 py-4 ">
+				<div class="text-3xl md:text-8xl col-span-7 font-black text-secondary-100 hover:text-primary-200 hover:scale-110 pr-12 py-4 ">
 					Development
 				</div>
 				<div class="col-span-5 align-end">
-					<video type="video/mp4" src={service_development} autoplay loop class="h-48 w-full object-fill rounded-xl ring ring-secondary-100 ring-offset-8 ring-offset-accent-100 hover:scale-105"></video>
+					<video type="video/mp4" src={service_development} autoplay loop class="h-20 md:h-48 w-full object-fill rounded-xl ring ring-secondary-100 ring-offset-8 ring-offset-accent-100 hover:scale-105"></video>
 				</div>
 				<div class="col-span-8">
-					<video type="video/mp4" src={service_data} autoplay loop class="h-48 w-full object-fill rounded-xl ring ring-secondary-100 ring-offset-8 ring-offset-accent-100 hover:scale-105"></video>
+					<video type="video/mp4" src={service_data} autoplay loop class="h-20 md:h-48 w-full object-fill rounded-xl ring ring-secondary-100 ring-offset-8 ring-offset-accent-100 hover:scale-105"></video>
 				</div>
-				<div class="col-span-4 font-black text-secondary-100 hover:text-primary-200 text-center hover:scale-110 pt-8">
-					Data
+				<div class="col-span-4 ">
+					<h3 class="text-3xl md:text-8xl font-black text-secondary-100 hover:text-primary-200 text-center hover:scale-110 pt-8">
+						Data
+					</h3>
 				</div>
-				<div class="col-span-5 font-black text-secondary-100 hover:text-primary-200 text-center hover:scale-110 pt-12">
-					UI/UX
+				<div class="col-span-5">
+					<h3 class="text-3xl md:text-8xl font-black text-secondary-100 hover:text-primary-200 text-center hover:scale-110 pt-12">
+						UI/UX
+					</h3>
 				</div>
 				<div class="col-span-7">
-					<video type="video/mp4" src={service_uiux} autoplay loop class="h-48 w-full object-fill rounded-xl ring ring-secondary-100 ring-offset-8 ring-offset-accent-100 hover:scale-105"></video>
+					<video type="video/mp4" src={service_uiux} autoplay loop class="h-20 md:h-48 w-full object-fill rounded-xl ring ring-secondary-100 ring-offset-8 ring-offset-accent-100 hover:scale-105"></video>
 				</div>
 			</div>
 		</div>
