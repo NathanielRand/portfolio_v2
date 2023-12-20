@@ -175,11 +175,13 @@
 		<div class="snap-center bg-primary-100 h-screen flex items-center justify-center text-8xl">
 			<div class="grid grid-cols-12">
 				<div class="col-span-12">
+					<a href="/#section-4">
+						<svg class="text-secondary-100 hover:text-primary-50 ml-4 w-20 h-20 md:w-24 md:h-24 mt-0 md:mt-14 mb-10 md:mb-0" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="0.4" stroke="currentColor">
+							<path stroke-linecap="round" stroke-linejoin="round" d="M9 12.75l3 3m0 0l3-3m-3 3v-7.5M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
+						</svg>			
+					</a>			  
 					<a href="https://remotejobs.guru" target="_blank">
 						<h3 class="text-4xl md:text-7xl text-secondary-100 hover:text-primary-50 hover:overline hover:decoration-accent-100 font-black text-end mb-20">
-							<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="0.4" stroke="currentColor" class="ml-4 w-20 h-20 md:w-24 md:h-24 mt-0 md:mt-14 mb-10 md:mb-0">
-								<path stroke-linecap="round" stroke-linejoin="round" d="M9 12.75l3 3m0 0l3-3m-3 3v-7.5M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
-							</svg>						  
 							Remote Job Guru <custom class="font-thin text-accent-100">|</custom>
 						</h3>
 					</a>
@@ -226,11 +228,13 @@
 		<div class="snap-center bg-secondary-100 h-screen flex items-center justify-center text-8xl">
 			<div class="grid grid-cols-12">
 				<div class="col-span-12">
+					<a href="/#section-5">
+						<svg class="text-accent-100 hover:text-primary-100 ml-4 w-20 h-20 md:w-24 md:h-24 mt-0 md:mt-14 mb-10 md:mb-0" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="0.4" stroke="currentColor">
+							<path stroke-linecap="round" stroke-linejoin="round" d="M9 12.75l3 3m0 0l3-3m-3 3v-7.5M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
+						</svg>		
+					</a>				  
 					<a href="https://morebytes.io" target="_blank">
 						<h3 class="text-5xl md:text-7xl text-accent-100 hover:text-primary-100 hover:overline hover:decoration-primary-200 font-black text-end mb-20">
-							<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="0.4" stroke="currentColor" class="ml-4 w-20 h-20 md:w-24 md:h-24 mt-0 md:mt-14 mb-10 md:mb-0">
-								<path stroke-linecap="round" stroke-linejoin="round" d="M9 12.75l3 3m0 0l3-3m-3 3v-7.5M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
-							</svg>						  
 							MoreBytes <custom class="font-thin text-primary-200">|</custom>
 						</h3>
 					</a>
@@ -277,11 +281,13 @@
 		<div class="snap-center bg-accent-100 h-screen flex items-center justify-center text-8xl">
 			<div class="grid grid-cols-12">
 				<div class="col-span-12">
+					<a href="/#section-6">
+						<svg class="text-primary-100 hover:text-primary-200 ml-4 w-20 h-20 md:w-24 md:h-24 mt-0 md:mt-14 mb-10 md:mb-0" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="0.4" stroke="currentColor">
+							<path stroke-linecap="round" stroke-linejoin="round" d="M9 12.75l3 3m0 0l3-3m-3 3v-7.5M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
+						</svg>		
+					</a>				  
 					<a href="https://kqmgmt.co" target="_blank">
-						<h3 class="text-5xl md:text-7xl  text-primary-100 hover:text-primary-200 hover:overline hover:decoration-secondary-100 font-black text-end mb-20">
-							<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="0.4" stroke="currentColor" class="ml-4 w-20 h-20 md:w-24 md:h-24 mt-0 md:mt-14 mb-10 md:mb-0">
-								<path stroke-linecap="round" stroke-linejoin="round" d="M9 12.75l3 3m0 0l3-3m-3 3v-7.5M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
-							</svg>						  
+						<h3 class="text-5xl md:text-7xl text-primary-100 hover:text-primary-200 hover:overline hover:decoration-secondary-100 font-black text-end mb-20">
 							KQ mgmt <custom class="font-thin text-secondary-100">|</custom>
 						</h3>
 					</a>
