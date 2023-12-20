@@ -4,7 +4,7 @@
 	import service_data from '$lib/assets/videos/service_development_8.mp4';
 	import service_uiux from '$lib/assets/videos/service_development_4.mp4';
 	import rjg_desktop from '$lib/assets/images/rjg_desktop.png';
-	import rjg_mobile from '$lib/assets/images/rjg_mobile.png';
+	import rjg_mobile from '$lib/assets/images/mobile.png';
 	import morebytes_desktop from '$lib/assets/images/morebytes_desktop.png';
 	import morebytes_mobile from '$lib/assets/images/morebytes_mobile.png';
 	import kq_desktop from '$lib/assets/images/kq_desktop.png';
