@@ -12,7 +12,6 @@
 	import dontdelete_desktop from '$lib/assets/images/dontdelete_desktop.png';
 	import dontdelete_mobile from '$lib/assets/images/dontdelete_mobile.png';
 
-
 	import { onMount } from 'svelte';
 	let activeSection = '';
 
