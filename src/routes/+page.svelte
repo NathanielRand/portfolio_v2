@@ -1,3 +1,10 @@
+<svelte:head>
+    <title>Nathaniel Rand | Developer </title>
+    <meta name="description" content="" />
+    <meta name="keywords" content="nathaniel rand, nathaniel," 
+    />
+</svelte:head>
+
 <script>
 	import nathanielrand from '$lib/assets/images/nathaniel_hero_2.webp';
 	import nathanielrand_1 from '$lib/assets/images/nathanielrand_1.webp';
@@ -15,6 +22,8 @@
 	import kq_mobile from '$lib/assets/images/kq_mobile.webp';
 	import dontdelete_desktop from '$lib/assets/images/dontdelete_desktop.webp';
 	import dontdelete_mobile from '$lib/assets/images/dontdelete_mobile.webp';
+	import rookbarber from '$lib/assets/images/rook_barber.webp';
+	import siddhantchereddy from '$lib/assets/images/siddhant_chereddy.webp';
 
 	import { onMount } from 'svelte';
 	let activeSection = '';
@@ -346,10 +355,10 @@
 							<p class="text-xl md:text-2xl italic font-medium text-gray-900 dark:text-white">"Flowbite is just awesome. It contains tons of predesigned components and pages starting from login screen to complex dashboard. Perfect choice for your next SaaS application."</p>
 						</blockquote>
 						<figcaption class="flex items-center justify-center mt-6 space-x-3 rtl:space-x-reverse">
-							<img class="w-6 h-6 rounded-full" src="https://flowbite.s3.amazonaws.com/blocks/marketing-ui/avatars/michael-gouch.png" alt="profile picture">
+							<img class="w-6 h-6 rounded-full" src={rookbarber} alt="rook barber profile picture">
 							<div class="flex items-center divide-x-2 rtl:divide-x-reverse divide-gray-500 dark:divide-gray-700">
 								<cite class="pe-3 text-2xl font-medium text-gray-900 dark:text-white">Rook Barber</cite>
-								<cite class="ps-3 text-sm text-gray-500 dark:text-gray-400">Founder KQmgmt</cite>
+								<cite class="ps-3 text-sm text-gray-500 dark:text-gray-400">CEO KQmgmt</cite>
 							</div>
 						</figcaption>
 					</figure>
@@ -363,10 +372,10 @@
 							<p class="z-10 text-xl md:text-2xl italic font-medium text-gray-900 dark:text-white">"Flowbite is just awesome. It contains tons of predesigned components and pages starting from login screen to complex dashboard. Perfect choice for your next SaaS application."</p>
 						</blockquote>
 						<figcaption class="flex items-center justify-center mt-6 space-x-3 rtl:space-x-reverse">
-							<img class="w-6 h-6 rounded-full" src="https://flowbite.s3.amazonaws.com/blocks/marketing-ui/avatars/michael-gouch.png" alt="profile picture">
+							<img class="w-6 h-6 rounded-full" src={siddhantchereddy} alt="siddhant chereddy profile picture">
 							<div class="flex items-center divide-x-2 rtl:divide-x-reverse divide-gray-500 dark:divide-gray-700">
 								<cite class="pe-3 text-2xl font-medium text-gray-900 dark:text-white">Siddhant Chereddy</cite>
-								<cite class="ps-3 text-sm text-gray-500 dark:text-gray-400">Founder Don't Delete Studios</cite>
+								<cite class="ps-3 text-sm text-gray-500 dark:text-gray-400">CTO Don't Delete Studios</cite>
 							</div>
 						</figcaption>
 					</figure>
@@ -397,7 +406,7 @@
 									<div class="mb-5">
 										<input type="email" id="email" name="email" placeholder="Email" class="bg-secondary-100 border-2 border-primary-100 text-primary-200 text-sm rounded-xl focus:ring-2 focus:ring-accent-100 focus:ring-offset-4 focus:ring-offset-secondary-100 focus:border-primary-200 block w-full p-2.5" required>
 									</div>
-									<div class="mb-0">
+									<div class="mb-4">
 										<textarea id="message" rows="4" name="message" class="bg-secondary-100 border-2 border-primary-100 text-primary-200 text-sm rounded-xl focus:ring-2 focus:ring-accent-100 focus:ring-offset-4 focus:ring-offset-secondary-100 focus:border-primary-200 block w-full p-2.5" placeholder="Write your inquiry here..." required></textarea>
 									</div>
 									<div class="h-captcha" data-captcha="true"></div>
