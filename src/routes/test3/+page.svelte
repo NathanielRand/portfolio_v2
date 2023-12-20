@@ -89,7 +89,7 @@ li {
   margin-left: -4px;
 }
 
-body {
+/* body {
   font-family: "Inter", sans-serif;
   background-color: #1e1f26;
   display: flex;
@@ -97,6 +97,6 @@ body {
   justify-content: center;
   align-items: center;
   min-height: 100vh;
-}
+} */
 
 </style>
