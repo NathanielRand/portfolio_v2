@@ -1,5 +1,9 @@
 <script>
-	import nathanielrand from '../lib/assets/images/nathaniel_2.webp';
+	import nathanielrand from '$lib/assets/images/nathaniel_hero_2.webp';
+	import nathanielrand_1 from '$lib/assets/images/nathanielrand_1.webp';
+	import nathanielrand_2 from '$lib/assets/images/nathanielrand_7.webp';
+	import nathanielrand_3 from '$lib/assets/images/nathanielrand_6.webp';
+	import nathanielrand_4 from '$lib/assets/images/nathanielrand_4.webp';
 	import service_development from '$lib/assets/videos/service_development_6.mp4';
 	import service_data from '$lib/assets/videos/service_development_8.mp4';
 	import service_uiux from '$lib/assets/videos/service_development_4.mp4';
@@ -101,7 +105,7 @@
 						</svg>
 					</div>
 					<div>
-						<!-- <img alt="nathanielrand" src={nathanielrand} class="hidden md:block ml-40 md:ml-0 pb-96 md:mb-0 mt-6 scale-150"> -->
+						<!-- <img alt="nathanielrand" src={nathanielrand_hero_1} class="hidden md:block ml-40 md:ml-0 pb-96 md:mb-0 mt-6 scale-150"> -->
 					</div>
 					
 				</div>
@@ -123,16 +127,16 @@
 				
 				<div class="grid grid-cols-2 md:grid-cols-4 gap-10 pt-8 md:pt-16">
 					<div>
-						<img class="h-auto max-w-full rounded-lg ring-1 ring-secondary-100 ring-offset-8 ring-offset-primary-50 hover:scale-105" src="https://flowbite.s3.amazonaws.com/docs/gallery/square/image.jpg" alt="">
+						<img class="h-64 max-w-72 rounded-lg ring-1 ring-secondary-100 ring-offset-8 ring-offset-primary-50 hover:scale-105" src={nathanielrand_1} alt="">
 					</div>
 					<div>
-						<img class="h-auto max-w-full rounded-lg ring-1 ring-accent-100 ring-offset-8 ring-offset-primary-50 hover:scale-105" src="https://flowbite.s3.amazonaws.com/docs/gallery/square/image-1.jpg" alt="">
+						<img class="h-64 max-w-72 rounded-lg ring-1 ring-accent-100 ring-offset-8 ring-offset-primary-50 hover:scale-105" src={nathanielrand_2} alt="">
 					</div>
 					<div>
-						<img class="h-auto max-w-full rounded-lg ring-1 ring-primary-100 ring-offset-8 ring-offset-primary-50 hover:scale-105" src="https://flowbite.s3.amazonaws.com/docs/gallery/square/image-2.jpg" alt="">
+						<img class="h-64 max-w-72 rounded-lg ring-1 ring-primary-100 ring-offset-8 ring-offset-primary-50 hover:scale-105" src={nathanielrand_3} alt="">
 					</div>
 					<div>
-						<img class="h-auto max-w-full rounded-lg ring-1 ring-primary-200 ring-offset-8 ring-offset-primary-50 hover:scale-105" src="https://flowbite.s3.amazonaws.com/docs/gallery/square/image-3.jpg" alt="">
+						<img class="h-64 max-w-72 rounded-lg ring-1 ring-primary-200 ring-offset-8 ring-offset-primary-50 hover:scale-105" src={nathanielrand_4} alt="">
 					</div>					
 				</div>
 
