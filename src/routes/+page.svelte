@@ -7,7 +7,7 @@
 	import rjg_mobile from '$lib/assets/images/rjg_mobile.webp';
 	import morebytes_desktop from '$lib/assets/images/morebytes_desktop.webp';
 	import morebytes_mobile from '$lib/assets/images/morebytes_mobile.png';
-	import kq_desktop from '$lib/assets/images/kq_desktop.png';
+	import kq_desktop from '$lib/assets/images/kq_desktop.webp';
 	import kq_mobile from '$lib/assets/images/kq_mobile.png';
 	import dontdelete_desktop from '$lib/assets/images/dontdelete_desktop.png';
 	import dontdelete_mobile from '$lib/assets/images/dontdelete_mobile.png';
