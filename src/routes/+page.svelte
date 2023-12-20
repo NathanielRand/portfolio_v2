@@ -4,7 +4,7 @@
 	import service_data from '$lib/assets/videos/service_development_8.mp4';
 	import service_uiux from '$lib/assets/videos/service_development_4.mp4';
 	import rjg_desktop from '$lib/assets/images/rjg_desktop.png';
-	// import rjg_mobile from '$lib/assets/images/rjg_mobile.png';
+	import rjg_mobile from '$lib/assets/images/rjg_mobile.png';
 	import morebytes_desktop from '$lib/assets/images/morebytes_desktop.png';
 	import morebytes_mobile from '$lib/assets/images/morebytes_mobile.png';
 	import kq_desktop from '$lib/assets/images/kq_desktop.png';
@@ -215,8 +215,8 @@
 						<div class="h-[46px] w-[3px] bg-gray-800 dark:bg-gray-800 absolute -start-[17px] top-[178px] rounded-s-lg"></div>
 						<div class="h-[64px] w-[3px] bg-gray-800 dark:bg-gray-800 absolute -end-[17px] top-[142px] rounded-e-lg"></div>
 						<div class="rounded-[2rem] overflow-hidden w-[272px] h-[572px] bg-white dark:bg-gray-800">
-							<!-- <img src={rjg_mobile} class="dark:hidden w-[272px] h-[572px]" alt="">
-							<img src={rjg_mobile} class="hidden dark:block w-[272px] h-[572px]" alt=""> -->
+							<img src={rjg_mobile} class="dark:hidden w-[272px] h-[572px]" alt="">
+							<img src={rjg_mobile} class="hidden dark:block w-[272px] h-[572px]" alt="">
 						</div>
 					</div>
 				</div>
