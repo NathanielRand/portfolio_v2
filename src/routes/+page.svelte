@@ -1,16 +1,16 @@
 <script>
-	import nathanielrand from '../lib/assets/images/nathaniel_2.png';
+	import nathanielrand from '../lib/assets/images/nathaniel_2.webp';
 	import service_development from '$lib/assets/videos/service_development_6.mp4';
 	import service_data from '$lib/assets/videos/service_development_8.mp4';
 	import service_uiux from '$lib/assets/videos/service_development_4.mp4';
-	import rjg_desktop from '$lib/assets/images/rjg_desktop.png';
+	import rjg_desktop from '$lib/assets/images/rjg_desktop.webp';
 	import rjg_mobile from '$lib/assets/images/rjg_mobile.webp';
 	import morebytes_desktop from '$lib/assets/images/morebytes_desktop.webp';
-	import morebytes_mobile from '$lib/assets/images/morebytes_mobile.png';
+	import morebytes_mobile from '$lib/assets/images/morebytes_mobile.webp';
 	import kq_desktop from '$lib/assets/images/kq_desktop.webp';
-	import kq_mobile from '$lib/assets/images/kq_mobile.png';
-	import dontdelete_desktop from '$lib/assets/images/dontdelete_desktop.png';
-	import dontdelete_mobile from '$lib/assets/images/dontdelete_mobile.png';
+	import kq_mobile from '$lib/assets/images/kq_mobile.webp';
+	import dontdelete_desktop from '$lib/assets/images/dontdelete_desktop.webp';
+	import dontdelete_mobile from '$lib/assets/images/dontdelete_mobile.webp';
 
 	import { onMount } from 'svelte';
 	let activeSection = '';
