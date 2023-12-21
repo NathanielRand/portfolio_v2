@@ -1,7 +1,7 @@
 <svelte:head>
     <title>Nathaniel Rand | Developer </title>
-    <meta name="description" content="" />
-    <meta name="keywords" content="nathaniel rand, nathaniel," 
+    <meta name="description" content="Explore the portfolio of Nathaniel Rand, a seasoned full-stack web developer and database engineer based in Charleston, South Carolina. With a decade of hands-on experience, Nathaniel delivers innovative solutions at the intersection of technology and user experience." />
+    <meta name="keywords" content="nathaniel, rand, Nathaniel Rand, remote software developer, Charleston software developer, Full stack web developer, Database engineer, Charleston, South Carolina, Experienced developer, Web development portfolio, Technology solutions, Innovative programming, User-centric design" 
     />
 </svelte:head>
 
@@ -384,7 +384,7 @@
 		</div>
 	</section>
 	<section id="section-7" data-color="accent-100">
-		<div class="snap-center bg-primary-50 h-screen flex items-center justify-center text-8xl py-32 md:pt-0">
+		<div class="snap-center bg-primary-50 h-screen flex items-center justify-center text-8xl py-32 md:pt-24">
 			<div class="grid grid-cols-12">
 				<div class="col-span-4 col-start-2">
 					<h3 class="text-7xl md:text-9xl text-accent-100 font-black pt-14">Contact</h3>
@@ -411,7 +411,7 @@
 									</div>
 									<div class="h-captcha" data-captcha="true"></div>
 									<input type="checkbox" name="botcheck" class="hidden" style="display: none;">
-									<button type="submit" class="text-xl text-primary-100 outline bg-secondary-100 hover:text-accent-100 font-medium rounded-xl text-sm w-full sm:w-auto px-5 py-2.5 text-center">Submit</button>
+									<button type="submit" class="text-xl text-primary-100 outline bg-secondary-100 hover:text-accent-100 font-medium rounded-xl text-lg w-full sm:w-auto px-5 py-2.5 text-center">Send it</button>
 								</form>
 								<script src="https://web3forms.com/client/script.js" async defer></script>
 							</div>
