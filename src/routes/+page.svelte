@@ -26,6 +26,7 @@
 	import siddhantchereddy from '$lib/assets/images/siddhant_chereddy.webp';
 
 	import { onMount } from 'svelte';
+	import { spring } from 'svelte/motion';
 	let activeSection = '';
 
 	// Map each section to its corresponding class
@@ -64,6 +65,11 @@
 			observer.disconnect();
 		};
 	});
+
+	import { fly } from 'svelte/transition';
+
+	let visible = true;
+	let status = 'waiting...';
 </script>
 
 <h6
@@ -73,6 +79,8 @@
   Nathaniel Rand Portfolio
 </h6>
 
+
+
 <!-- Slider indicators
 <div class="absolute z-10 flex -translate-x-1/2 bottom-5 left-1/2 space-x-3 rtl:space-x-reverse">
 	<button type="button" class="w-3 h-3 rounded-full" aria-current="true" aria-label="Slide 1" data-carousel-slide-to="0"></button>
@@ -81,6 +89,15 @@
 	<button type="button" class="w-3 h-3 rounded-full" aria-current="false" aria-label="Slide 4" data-carousel-slide-to="3"></button>
 	<button type="button" class="w-3 h-3 rounded-full" aria-current="false" aria-label="Slide 5" data-carousel-slide-to="4"></button>
 </div> -->
+
+<!-- svelte-ignore a11y-no-static-element-interactions -->
+<!-- <svg
+	on:mousemove={(e) => coords.set({ x: e.clientX, y: e.clientY })}
+	on:mousedown={() => size.set(30)}
+	on:mouseup={() => size.set(10)}
+>
+	<circle cx={$coords.x} cy={$coords.y} r={$size} />
+</svg> -->
 
 <div class="snap-y snap-mandatory h-screen w-screen overflow-scroll">
 	<section id="section-0" data-color="primary-50">
@@ -432,5 +449,14 @@
 		right: 20px;
 		writing-mode: vertical-rl;
 	}
+
+	/* svg {
+		width: 100%;
+		height: 100%;
+		margin: -8px;
+	}
+	circle {
+		fill: #ff3e00;
+	} */
 
 </style>
