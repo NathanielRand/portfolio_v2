@@ -358,14 +358,14 @@
 		</div>
 	</section>
 	<section id="section-6" data-color="accent-100">
-		<div class="snap-center bg-primary-200 h-screen flex items-center justify-center text-8xl pt-20 md:pt-0">
+		<div class="snap-center bg-primary-200 h-screen flex items-center justify-center text-8xl pt-24 md:pt-0">
 			<div class="grid grid-cols-12">
-				<div class="col-span-11 col-start-1 pb-12 md:pb-32 text-center">
+				<div class="col-span-11 col-start-1 pb-8 md:pb-32 text-center">
 					<h3 class="text-4xl md:text-8xl text-accent-100 text-center font-black">What They Say</h3>
 				</div>
 				<div class="col-span-12 md:col-span-4 md:col-start-2 mb-12 md:mb-0">
 					<figure class="max-w-screen-md mx-auto text-center">
-						<svg class="w-8 h-8 md:w-10 md:h-10 mx-auto mb-3 text-gray-400 dark:text-gray-600" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 18 14">
+						<svg class="w-6 h-6 md:w-10 md:h-10 mx-auto mb-3 text-gray-400 dark:text-gray-600" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 18 14">
 							<path d="M6 0H2a2 2 0 0 0-2 2v4a2 2 0 0 0 2 2h4v1a3 3 0 0 1-3 3H2a1 1 0 0 0 0 2h1a5.006 5.006 0 0 0 5-5V2a2 2 0 0 0-2-2Zm10 0h-4a2 2 0 0 0-2 2v4a2 2 0 0 0 2 2h4v1a3 3 0 0 1-3 3h-1a1 1 0 0 0 0 2h1a5.006 5.006 0 0 0 5-5V2a2 2 0 0 0-2-2Z"/>
 						</svg>
 						<blockquote>
@@ -374,7 +374,7 @@
 						<figcaption class="flex items-center justify-center mt-6 space-x-3 rtl:space-x-reverse">
 							<img class="w-6 h-6 rounded-full" src={rookbarber} alt="rook barber profile picture">
 							<div class="flex items-center divide-x-2 rtl:divide-x-reverse divide-gray-500 dark:divide-gray-700">
-								<cite class="pe-3 text-2xl font-medium text-gray-900 dark:text-white">Rook Barber</cite>
+								<cite class="pe-3 text-xl md:text-2xl font-medium text-gray-900 dark:text-white">Rook Barber</cite>
 								<cite class="ps-3 text-sm text-gray-500 dark:text-gray-400">CEO KQmgmt</cite>
 							</div>
 						</figcaption>
@@ -382,16 +382,16 @@
 				</div>
 				<div class="col-span-12 md:col-span-4 md:col-start-7">
 					<figure class="max-w-screen-md mx-auto text-center">
-						<svg class="w-8 h-8 md:w-10 md:h-10 mx-auto mb-3 text-gray-400 dark:text-gray-600" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 18 14">
+						<svg class="w-6 h-6 md:w-10 md:h-10 mx-auto mb-3 text-gray-400 dark:text-gray-600" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 18 14">
 							<path d="M6 0H2a2 2 0 0 0-2 2v4a2 2 0 0 0 2 2h4v1a3 3 0 0 1-3 3H2a1 1 0 0 0 0 2h1a5.006 5.006 0 0 0 5-5V2a2 2 0 0 0-2-2Zm10 0h-4a2 2 0 0 0-2 2v4a2 2 0 0 0 2 2h4v1a3 3 0 0 1-3 3h-1a1 1 0 0 0 0 2h1a5.006 5.006 0 0 0 5-5V2a2 2 0 0 0-2-2Z"/>
 						</svg>
 						<blockquote>
-							<p class="z-10 text-lg md:text-2xl italic font-medium text-gray-900 dark:text-white">"Flowbite is just awesome. It contains tons of predesigned components and pages starting from login screen to complex dashboard. Perfect choice for your next SaaS application."</p>
+							<p class="text-lg md:text-2xl italic font-medium text-gray-900 dark:text-white">"Flowbite is just awesome. It contains tons of predesigned components and pages starting from login screen to complex dashboard. Perfect choice for your next SaaS application."</p>
 						</blockquote>
 						<figcaption class="flex items-center justify-center mt-6 space-x-3 rtl:space-x-reverse">
 							<img class="w-6 h-6 rounded-full" src={siddhantchereddy} alt="siddhant chereddy profile picture">
 							<div class="flex items-center divide-x-2 rtl:divide-x-reverse divide-gray-500 dark:divide-gray-700">
-								<cite class="pe-3 text-2xl font-medium text-gray-900 dark:text-white">Sid Chereddy</cite>
+								<cite class="pe-3 text-xl md:text-2xl font-medium text-gray-900 dark:text-white">Sid Chereddy</cite>
 								<cite class="ps-3 text-sm text-gray-500 dark:text-gray-400">CTO Don't Delete Studios</cite>
 							</div>
 						</figcaption>
@@ -428,7 +428,7 @@
 									</div>
 									<div class="h-captcha" data-captcha="true"></div>
 									<input type="checkbox" name="botcheck" class="hidden" style="display: none;">
-									<button type="submit" class="text-xl text-primary-100 outline bg-secondary-100 hover:text-accent-100 font-medium rounded-xl text-lg w-full sm:w-auto px-5 text-center">Send it</button>
+									<button type="submit" class="text-xl text-primary-100 outline bg-secondary-100 hover:text-accent-100 font-medium rounded-xl text-lg w-full sm:w-auto px-5 mt-0 py-2.5 text-center">Send it</button>
 								</form>
 								<script src="https://web3forms.com/client/script.js" async defer></script>
 							</div>
