@@ -358,10 +358,10 @@
 		</div>
 	</section>
 	<section id="section-6" data-color="accent-100">
-		<div class="snap-center bg-primary-200 h-screen flex items-center justify-center text-8xl pt-24 md:pt-0">
+		<div class="snap-center bg-primary-200 h-screen px-4 flex items-center justify-center md:pt-0">
 			<div class="grid grid-cols-12">
-				<div class="col-span-11 col-start-1 pb-8 md:pb-32 text-center">
-					<h3 class="text-4xl md:text-8xl text-accent-100 text-center font-black">What They Say</h3>
+				<div class="col-span-11 col-start-1 pb-8 md:pb-32">
+					<h3 class="text-4xl md:text-6xl text-accent-100 text-center font-black">What They Say</h3>
 				</div>
 				<div class="col-span-12 md:col-span-4 md:col-start-2 mb-12 md:mb-0">
 					<figure class="max-w-screen-md mx-auto text-center">
@@ -407,7 +407,7 @@
 					<h3 class="text-7xl md:text-9xl text-accent-100 font-black pt-14">Contact</h3>
 				</div>
 				<div class="col-span-12 md:col-span-5 md:col-start-7 mt-8 mx-4">
-					<div class="card p-8 ring ring-secondary-100 ring-offset-primary-50 ring-2 ring-offset-8 rounded-xl bg-secondary-100">
+					<div class="card h-fit p-8 ring ring-secondary-100 ring-offset-primary-50 ring-2 ring-offset-8 rounded-xl bg-secondary-100">
 						<div class="card-body">
 							<div class="card-title text-4xl md:text-8xl font-black mb-8 text-center text-primary-100">
 								Give me a shout
