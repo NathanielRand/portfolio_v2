@@ -141,7 +141,7 @@
 	<section id="section-1" data-color="secondary-100">
 		<div class="snap-center bg-primary-50 px-4 pt-16 md:pt-0 h-screen flex items-center justify-center text-8xl">
 			<div class="container lg:px-48">
-				<h3 class="text-6xl md:text-8xl text-accent-100 font-black mb-6 md:mb-8 uppercase">About Me</h3>
+				<h3 class="text-5xl md:text-8xl text-accent-100 font-black mb-4 md:mb-8 uppercase">About Me</h3>
 				<p class="text-2xl md:text-4xl text-primary-100 font-extrabold mb-4 md:mb-12">
 					Over a decade, <custom class="text-lg md:text-3xl">I've navigated the trenches of large enterprises and helped fuel the fire of several promising startups.</custom>
 				</p>
@@ -270,7 +270,7 @@
 				</div>
 				<div class="col-span-12 md:col-span-6 -mt-8">
 					<h4 class="text-3xl md:text-5xl font-black mb-5 md:mb-6 text-accent-100 text-end md:text-start mr-4">Consulting Firm</h4>
-					<h4 class="text-3xl md:text-3xl font-thin mb-6 text-white overline decoration-primary-200 decoration-2 text-end md:text-start mr-4 uppercase opacity-50">Tech Stack</h4>
+					<h4 class="text-2xl md:text-3xl font-thin mb-6 text-white overline decoration-primary-200 decoration-2 text-end md:text-start mr-4 uppercase opacity-50">Tech Stack</h4>
 					<div class="flex bg-primary-50 rounded-xl p-3 mb-10 w-11/12 md:w-2/3 mx-auto md:mx-0">
 						<svg class="mx-1" width="36px" height="36px" viewBox="-2.4 -2.4 28.80 28.80" fill="none" xmlns="http://www.w3.org/2000/svg"><g id="SVGRepo_bgCarrier" stroke-width="0"><path transform="translate(-2.4, -2.4), scale(1.7999999999999998)" fill="#ffffff" d="M9.166.33a2.25 2.25 0 00-2.332 0l-5.25 3.182A2.25 2.25 0 00.5 5.436v5.128a2.25 2.25 0 001.084 1.924l5.25 3.182a2.25 2.25 0 002.332 0l5.25-3.182a2.25 2.25 0 001.084-1.924V5.436a2.25 2.25 0 00-1.084-1.924L9.166.33z" strokewidth="0"></path></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <path d="M7.99999 5C7.69206 5 7.4013 5.14187 7.21179 5.38459C7.02228 5.6273 6.95517 5.94379 7.02985 6.24254L8.02985 10.2425C8.14114 10.6877 8.54113 11 8.99999 11H13.8C13.9105 11 14 11.0895 14 11.2V13.5029C14 13.556 13.9789 13.6069 13.9414 13.6444L12.1414 15.4444C12.0633 15.5225 11.9367 15.5225 11.8586 15.4444L9.7071 13.2929C9.31658 12.9024 8.68341 12.9024 8.29289 13.2929C7.90236 13.6834 7.90236 14.3166 8.29289 14.7071L11.2929 17.7071C11.6834 18.0976 12.3166 18.0976 12.7071 17.7071L15.7071 14.7071C15.8946 14.5196 16 14.2652 16 14V10C16 9.44772 15.5523 9 15 9H9.93693C9.84515 9 9.76516 8.93754 9.7429 8.84851L9.3429 7.24851C9.31134 7.12228 9.40681 7 9.53693 7H16C16.5523 7 17 6.55228 17 6C17 5.44772 16.5523 5 16 5H7.99999Z" fill="#0F0F0F"></path> <path fill-rule="evenodd" clip-rule="evenodd" d="M4.30601 1C2.48037 1 1.07798 2.61696 1.33617 4.42426L2.90518 15.4074C3.00667 16.1178 3.35945 16.7683 3.89952 17.2409L10.0245 22.6002C11.1556 23.5899 12.8444 23.5899 13.9755 22.6002L20.1005 17.2409C20.6405 16.7683 20.9933 16.1178 21.0948 15.4074L22.6638 4.42426C22.922 2.61696 21.5196 1 19.694 1H4.30601ZM3.31606 4.14142C3.23 3.53899 3.69746 3 4.30601 3H19.694C20.3025 3 20.77 3.53899 20.6839 4.14142L19.1149 15.1245C19.0811 15.3613 18.9635 15.5782 18.7835 15.7357L12.6585 21.095C12.2815 21.4249 11.7185 21.4249 11.3415 21.095L5.21653 15.7357C5.0365 15.5782 4.91891 15.3613 4.88508 15.1245L3.31606 4.14142Z" fill="#0F0F0F"></path> </g></svg>
 						<svg class="mx-1" width="36px" height="36px" viewBox="-1.6 -1.6 19.20 19.20" fill="none" xmlns="http://www.w3.org/2000/svg"><g id="SVGRepo_bgCarrier" stroke-width="0"><path transform="translate(-1.6, -1.6), scale(1.2)" fill="#ffffff" d="M9.166.33a2.25 2.25 0 00-2.332 0l-5.25 3.182A2.25 2.25 0 00.5 5.436v5.128a2.25 2.25 0 001.084 1.924l5.25 3.182a2.25 2.25 0 002.332 0l5.25-3.182a2.25 2.25 0 001.084-1.924V5.436a2.25 2.25 0 00-1.084-1.924L9.166.33z" strokewidth="0"></path></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <path fill-rule="nonzero" clip-rule="nonzero" d="M3 1.60001C2.86193 1.60001 2.75 1.71193 2.75 1.85001V11.4003C2.75 11.4896 2.79769 11.5722 2.87509 11.6168L7.73381 14.4194C7.80942 14.463 7.90231 14.464 7.97886 14.4221L13.1201 11.6048C13.2002 11.5609 13.25 11.4769 13.25 11.3856V1.85001C13.25 1.71193 13.1381 1.60001 13 1.60001H3ZM1.25 1.85001C1.25 0.883508 2.0335 0.100006 3 0.100006H13C13.9665 0.100006 14.75 0.883509 14.75 1.85001V11.3856C14.75 12.0248 14.4015 12.6131 13.841 12.9203L8.69968 15.7375C8.16383 16.0311 7.51363 16.024 6.98434 15.7187L2.12562 12.9162C1.58382 12.6037 1.25 12.0258 1.25 11.4003V1.85001ZM5 4.35001C5 3.93579 5.33579 3.60001 5.75 3.60001H10.3654C10.7796 3.60001 11.1154 3.93579 11.1154 4.35001V10.4462C11.1154 10.7302 10.9549 10.9899 10.7008 11.117L8.3931 12.2708C8.18196 12.3764 7.93343 12.3764 7.72228 12.2708L5.41459 11.117C5.1605 10.9899 5 10.7302 5 10.4462V9.86924C5 9.45502 5.33579 9.11924 5.75 9.11924C6.16421 9.11924 6.5 9.45502 6.5 9.86924V9.98263L8.05769 10.7615L9.61539 9.98263V8.31154H7C6.58579 8.31154 6.25 7.97576 6.25 7.56154C6.25 7.14733 6.58579 6.81154 7 6.81154H9.61539V5.10001H5.75C5.33579 5.10001 5 4.76422 5 4.35001Z" fill="#000000"></path> </g></svg>
@@ -323,7 +323,7 @@
 				</div>
 				<div class="col-span-12 md:col-span-6 -mt-8">
 					<h4 class="text-3xl md:text-5xl font-black mb-5 md:mb-6 text-primary-100 text-end md:text-start mr-4">Modeling Agency</h4>
-					<h4 class="text-3xl md:text-3xl font-thin mb-6 text-white overline decoration-secondary-100 decoration-2 text-end md:text-start mr-4 uppercase opacity-50">Tech Stack</h4>
+					<h4 class="text-2xl md:text-3xl font-thin mb-6 text-white overline decoration-secondary-100 decoration-2 text-end md:text-start mr-4 uppercase opacity-50">Tech Stack</h4>
 					<div class="flex bg-primary-50 rounded-xl p-3 mb-10 w-11/12 md:w-2/3 mx-auto md:mx-0">
 						<svg class="mx-1" width="36px" height="36px" viewBox="-2.4 -2.4 28.80 28.80" fill="none" xmlns="http://www.w3.org/2000/svg"><g id="SVGRepo_bgCarrier" stroke-width="0"><path transform="translate(-2.4, -2.4), scale(1.7999999999999998)" fill="#ffffff" d="M9.166.33a2.25 2.25 0 00-2.332 0l-5.25 3.182A2.25 2.25 0 00.5 5.436v5.128a2.25 2.25 0 001.084 1.924l5.25 3.182a2.25 2.25 0 002.332 0l5.25-3.182a2.25 2.25 0 001.084-1.924V5.436a2.25 2.25 0 00-1.084-1.924L9.166.33z" strokewidth="0"></path></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <path d="M7.99999 5C7.69206 5 7.4013 5.14187 7.21179 5.38459C7.02228 5.6273 6.95517 5.94379 7.02985 6.24254L8.02985 10.2425C8.14114 10.6877 8.54113 11 8.99999 11H13.8C13.9105 11 14 11.0895 14 11.2V13.5029C14 13.556 13.9789 13.6069 13.9414 13.6444L12.1414 15.4444C12.0633 15.5225 11.9367 15.5225 11.8586 15.4444L9.7071 13.2929C9.31658 12.9024 8.68341 12.9024 8.29289 13.2929C7.90236 13.6834 7.90236 14.3166 8.29289 14.7071L11.2929 17.7071C11.6834 18.0976 12.3166 18.0976 12.7071 17.7071L15.7071 14.7071C15.8946 14.5196 16 14.2652 16 14V10C16 9.44772 15.5523 9 15 9H9.93693C9.84515 9 9.76516 8.93754 9.7429 8.84851L9.3429 7.24851C9.31134 7.12228 9.40681 7 9.53693 7H16C16.5523 7 17 6.55228 17 6C17 5.44772 16.5523 5 16 5H7.99999Z" fill="#0F0F0F"></path> <path fill-rule="evenodd" clip-rule="evenodd" d="M4.30601 1C2.48037 1 1.07798 2.61696 1.33617 4.42426L2.90518 15.4074C3.00667 16.1178 3.35945 16.7683 3.89952 17.2409L10.0245 22.6002C11.1556 23.5899 12.8444 23.5899 13.9755 22.6002L20.1005 17.2409C20.6405 16.7683 20.9933 16.1178 21.0948 15.4074L22.6638 4.42426C22.922 2.61696 21.5196 1 19.694 1H4.30601ZM3.31606 4.14142C3.23 3.53899 3.69746 3 4.30601 3H19.694C20.3025 3 20.77 3.53899 20.6839 4.14142L19.1149 15.1245C19.0811 15.3613 18.9635 15.5782 18.7835 15.7357L12.6585 21.095C12.2815 21.4249 11.7185 21.4249 11.3415 21.095L5.21653 15.7357C5.0365 15.5782 4.91891 15.3613 4.88508 15.1245L3.31606 4.14142Z" fill="#0F0F0F"></path> </g></svg>
 						<svg class="mx-1" width="36px" height="36px" viewBox="-1.6 -1.6 19.20 19.20" fill="none" xmlns="http://www.w3.org/2000/svg"><g id="SVGRepo_bgCarrier" stroke-width="0"><path transform="translate(-1.6, -1.6), scale(1.2)" fill="#ffffff" d="M9.166.33a2.25 2.25 0 00-2.332 0l-5.25 3.182A2.25 2.25 0 00.5 5.436v5.128a2.25 2.25 0 001.084 1.924l5.25 3.182a2.25 2.25 0 002.332 0l5.25-3.182a2.25 2.25 0 001.084-1.924V5.436a2.25 2.25 0 00-1.084-1.924L9.166.33z" strokewidth="0"></path></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <path fill-rule="nonzero" clip-rule="nonzero" d="M3 1.60001C2.86193 1.60001 2.75 1.71193 2.75 1.85001V11.4003C2.75 11.4896 2.79769 11.5722 2.87509 11.6168L7.73381 14.4194C7.80942 14.463 7.90231 14.464 7.97886 14.4221L13.1201 11.6048C13.2002 11.5609 13.25 11.4769 13.25 11.3856V1.85001C13.25 1.71193 13.1381 1.60001 13 1.60001H3ZM1.25 1.85001C1.25 0.883508 2.0335 0.100006 3 0.100006H13C13.9665 0.100006 14.75 0.883509 14.75 1.85001V11.3856C14.75 12.0248 14.4015 12.6131 13.841 12.9203L8.69968 15.7375C8.16383 16.0311 7.51363 16.024 6.98434 15.7187L2.12562 12.9162C1.58382 12.6037 1.25 12.0258 1.25 11.4003V1.85001ZM5 4.35001C5 3.93579 5.33579 3.60001 5.75 3.60001H10.3654C10.7796 3.60001 11.1154 3.93579 11.1154 4.35001V10.4462C11.1154 10.7302 10.9549 10.9899 10.7008 11.117L8.3931 12.2708C8.18196 12.3764 7.93343 12.3764 7.72228 12.2708L5.41459 11.117C5.1605 10.9899 5 10.7302 5 10.4462V9.86924C5 9.45502 5.33579 9.11924 5.75 9.11924C6.16421 9.11924 6.5 9.45502 6.5 9.86924V9.98263L8.05769 10.7615L9.61539 9.98263V8.31154H7C6.58579 8.31154 6.25 7.97576 6.25 7.56154C6.25 7.14733 6.58579 6.81154 7 6.81154H9.61539V5.10001H5.75C5.33579 5.10001 5 4.76422 5 4.35001Z" fill="#000000"></path> </g></svg>
@@ -361,7 +361,7 @@
 		<div class="snap-center bg-primary-200 h-screen flex items-center justify-center text-8xl pt-20 md:pt-0">
 			<div class="grid grid-cols-12">
 				<div class="col-span-11 col-start-1 pb-12 md:pb-32 text-center">
-					<h3 class="text-5xl md:text-8xl text-accent-100 text-center font-black">What They Say</h3>
+					<h3 class="text-4xl md:text-8xl text-accent-100 text-center font-black">What They Say</h3>
 				</div>
 				<div class="col-span-12 md:col-span-4 md:col-start-2 mb-12 md:mb-0">
 					<figure class="max-w-screen-md mx-auto text-center">
@@ -369,7 +369,7 @@
 							<path d="M6 0H2a2 2 0 0 0-2 2v4a2 2 0 0 0 2 2h4v1a3 3 0 0 1-3 3H2a1 1 0 0 0 0 2h1a5.006 5.006 0 0 0 5-5V2a2 2 0 0 0-2-2Zm10 0h-4a2 2 0 0 0-2 2v4a2 2 0 0 0 2 2h4v1a3 3 0 0 1-3 3h-1a1 1 0 0 0 0 2h1a5.006 5.006 0 0 0 5-5V2a2 2 0 0 0-2-2Z"/>
 						</svg>
 						<blockquote>
-							<p class="text-xl md:text-2xl italic font-medium text-gray-900 dark:text-white">"Flowbite is just awesome. It contains tons of predesigned components and pages starting from login screen to complex dashboard. Perfect choice for your next SaaS application."</p>
+							<p class="text-lg md:text-2xl italic font-medium text-gray-900 dark:text-white">"Flowbite is just awesome. It contains tons of predesigned components and pages starting from login screen to complex dashboard. Perfect choice for your next SaaS application."</p>
 						</blockquote>
 						<figcaption class="flex items-center justify-center mt-6 space-x-3 rtl:space-x-reverse">
 							<img class="w-6 h-6 rounded-full" src={rookbarber} alt="rook barber profile picture">
@@ -386,7 +386,7 @@
 							<path d="M6 0H2a2 2 0 0 0-2 2v4a2 2 0 0 0 2 2h4v1a3 3 0 0 1-3 3H2a1 1 0 0 0 0 2h1a5.006 5.006 0 0 0 5-5V2a2 2 0 0 0-2-2Zm10 0h-4a2 2 0 0 0-2 2v4a2 2 0 0 0 2 2h4v1a3 3 0 0 1-3 3h-1a1 1 0 0 0 0 2h1a5.006 5.006 0 0 0 5-5V2a2 2 0 0 0-2-2Z"/>
 						</svg>
 						<blockquote>
-							<p class="z-10 text-xl md:text-2xl italic font-medium text-gray-900 dark:text-white">"Flowbite is just awesome. It contains tons of predesigned components and pages starting from login screen to complex dashboard. Perfect choice for your next SaaS application."</p>
+							<p class="z-10 text-lg md:text-2xl italic font-medium text-gray-900 dark:text-white">"Flowbite is just awesome. It contains tons of predesigned components and pages starting from login screen to complex dashboard. Perfect choice for your next SaaS application."</p>
 						</blockquote>
 						<figcaption class="flex items-center justify-center mt-6 space-x-3 rtl:space-x-reverse">
 							<img class="w-6 h-6 rounded-full" src={siddhantchereddy} alt="siddhant chereddy profile picture">
@@ -406,10 +406,10 @@
 				<div class="col-span-4 col-start-2">
 					<h3 class="text-7xl md:text-9xl text-accent-100 font-black pt-14">Contact</h3>
 				</div>
-				<div class="col-span-12 md:col-span-5 md:col-start-7 mt-14 mx-4">
-					<div class="card p-12 ring ring-secondary-100 ring-offset-primary-50 ring-2 ring-offset-8 rounded-xl bg-secondary-100">
+				<div class="col-span-12 md:col-span-5 md:col-start-7 mt-8 mx-4">
+					<div class="card p-8 ring ring-secondary-100 ring-offset-primary-50 ring-2 ring-offset-8 rounded-xl bg-secondary-100">
 						<div class="card-body">
-							<div class="card-title text-5xl md:text-8xl font-black mb-14 text-center text-primary-100">
+							<div class="card-title text-4xl md:text-8xl font-black mb-8 text-center text-primary-100">
 								Give me a shout
 							</div>
 							<div class="card-content">
@@ -418,17 +418,17 @@
 									<input type="hidden" name="subject" value="New Contact from Portfolio Site">
 									<input type="hidden" name="from_name" value="Nathaniel Rand Portfolio">
 									<div class="mb-5">
-										<input type="text" id="name" name="name" placeholder="Name" class="bg-secondary-100 border-2 border-primary-100 text-primary-200 text-sm rounded-xl focus:ring-2 focus:ring-accent-100 focus:ring-offset-4 focus:ring-offset-secondary-100 focus:border-primary-200 block w-full p-2.5" required>
+										<input type="text" id="name" name="name" placeholder="Name" class="bg-secondary-100 border-2 border-primary-100 text-primary-200 text-sm rounded-xl focus:ring-2 focus:ring-accent-100 focus:ring-offset-4 focus:ring-offset-secondary-100 focus:border-primary-200 block w-full py-2.5" required>
 									</div>
 									<div class="mb-5">
-										<input type="email" id="email" name="email" placeholder="Email" class="bg-secondary-100 border-2 border-primary-100 text-primary-200 text-sm rounded-xl focus:ring-2 focus:ring-accent-100 focus:ring-offset-4 focus:ring-offset-secondary-100 focus:border-primary-200 block w-full p-2.5" required>
+										<input type="email" id="email" name="email" placeholder="Email" class="bg-secondary-100 border-2 border-primary-100 text-primary-200 text-sm rounded-xl focus:ring-2 focus:ring-accent-100 focus:ring-offset-4 focus:ring-offset-secondary-100 focus:border-primary-200 block w-full py-2.5" required>
 									</div>
 									<div class="mb-4">
-										<textarea id="message" rows="4" name="message" class="bg-secondary-100 border-2 border-primary-100 text-primary-200 text-sm rounded-xl focus:ring-2 focus:ring-accent-100 focus:ring-offset-4 focus:ring-offset-secondary-100 focus:border-primary-200 block w-full p-2.5" placeholder="Write your inquiry here..." required></textarea>
+										<textarea id="message" rows="4" name="message" class="bg-secondary-100 border-2 border-primary-100 text-primary-200 text-sm rounded-xl focus:ring-2 focus:ring-accent-100 focus:ring-offset-4 focus:ring-offset-secondary-100 focus:border-primary-200 block w-full py-2.5" placeholder="Write your inquiry here..." required></textarea>
 									</div>
 									<div class="h-captcha" data-captcha="true"></div>
 									<input type="checkbox" name="botcheck" class="hidden" style="display: none;">
-									<button type="submit" class="text-xl text-primary-100 outline bg-secondary-100 hover:text-accent-100 font-medium rounded-xl text-lg w-full sm:w-auto px-5 py-2.5 text-center">Send it</button>
+									<button type="submit" class="text-xl text-primary-100 outline bg-secondary-100 hover:text-accent-100 font-medium rounded-xl text-lg w-full sm:w-auto px-5 text-center">Send it</button>
 								</form>
 								<script src="https://web3forms.com/client/script.js" async defer></script>
 							</div>
