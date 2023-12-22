@@ -118,7 +118,7 @@
 							<svg class="mx-2 h-8 md:h-10 xl:h-10" viewBox="-2.4 -2.4 28.80 28.80" fill="none" xmlns="http://www.w3.org/2000/svg"><g id="SVGRepo_bgCarrier" stroke-width="0"><path transform="translate(-2.4, -2.4), scale(1.7999999999999998)" fill="#ffffff" d="M9.166.33a2.25 2.25 0 00-2.332 0l-5.25 3.182A2.25 2.25 0 00.5 5.436v5.128a2.25 2.25 0 001.084 1.924l5.25 3.182a2.25 2.25 0 002.332 0l5.25-3.182a2.25 2.25 0 001.084-1.924V5.436a2.25 2.25 0 00-1.084-1.924L9.166.33z" strokewidth="0"></path></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <path d="M12 1L24 22H0L12 1Z" fill="#000000"></path> </g></svg>						
 							<svg class="mx-2 h-8 md:h-10 xl:h-10" viewBox="-2.4 -2.4 28.80 28.80" xmlns="http://www.w3.org/2000/svg" fill="#000000"><g id="SVGRepo_bgCarrier" stroke-width="0"><path transform="translate(-2.4, -2.4), scale(1.7999999999999998)" fill="#ffffff" d="M9.166.33a2.25 2.25 0 00-2.332 0l-5.25 3.182A2.25 2.25 0 00.5 5.436v5.128a2.25 2.25 0 001.084 1.924l5.25 3.182a2.25 2.25 0 002.332 0l5.25-3.182a2.25 2.25 0 001.084-1.924V5.436a2.25 2.25 0 00-1.084-1.924L9.166.33z" strokewidth="0"></path></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <defs> <style>.cls-1{fill:#669df6;}.cls-2{fill:#aecbfa;}.cls-3{fill:#4285f4;}</style> </defs> <title>Icon_24px_Firestore_Color</title> <g data-name="Product Icons"> <g data-name="colored-32/firestore"> <g> <path class="cls-1" d="M21,13,12,9v4l9,4Zm0-7L12,2V6l9,4Z"></path> <polygon id="Rectangle-7" class="cls-2" points="3 6 12 2 12 6 3 10 3 6"></polygon> <polygon id="Rectangle-7-2" data-name="Rectangle-7" class="cls-2" points="3 13 12 9 12 13 3 17 3 13"></polygon> <polygon id="Rectangle-7-3" data-name="Rectangle-7" class="cls-3" points="12 18 15.37 16.5 19.88 18.5 12 22 12 18"></polygon> </g> </g> </g> </g></svg>
 						</div>
-						<div class="flex justify-center md:justify-start pt-8 md:pt-12">
+						<div class="flex justify-center md:justify-start pt-10 md:pt-12">
 							<a href="/#section-7" class="text-xl md:text-2xl text-secondary-100 md:text-primary-200 uppercase border-y-2 hover:border-accent-100 py-3 mx-4 md:mx-0 hover:border-accent-100">
 								Send Your Inquiry
 							</a>
@@ -126,7 +126,7 @@
 						<svg class="hidden md:block hover:scale-125 text-white mx-4 md:mx-0 mt-24 md:mt-14 md:mb-6 w-10 h-10 md:w-12 md:h-12" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1" stroke="currentColor">
 							<path stroke-linecap="round" stroke-linejoin="round" d="M4.5 4.5l15 15m0 0V8.25m0 11.25H8.25" />
 						</svg>
-						<svg class="block md:hidden w-10 h-10 mx-auto mt-10 hover:scale-125 text-white" data-slot="icon" fill="none" stroke-width="1.5" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+						<svg class="block md:hidden w-10 h-10 mx-auto mt-8 hover:scale-125 text-white" data-slot="icon" fill="none" stroke-width="1.5" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
 							<path stroke-linecap="round" stroke-linejoin="round" d="M19.5 13.5 12 21m0 0-7.5-7.5M12 21V3"></path>
 						</svg>
 					</div>
