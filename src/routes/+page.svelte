@@ -102,7 +102,7 @@
 <div class="snap-y snap-mandatory h-screen w-screen overflow-scroll">
 	<section id="section-0" data-color="primary-50">
 		<div class="snap-center bg-primary-200 h-screen flex items-center justify-center text-8xl">
-			<div class="container rounded-xl bg-primary-50 mx-4 md:ml-6 md:mr-20 px-0 lg:px-36 w-full md:w-3/5 h-3/6 md:h-fit ring-1 ring-primary-50 ring-offset-8 ring-offset-primary-200">
+			<div class="container rounded-xl bg-primary-50 -mt-48 md:-mt-0 mx-4 md:ml-6 md:mr-20 px-0 lg:px-36 w-full md:w-3/5 h-3/6 md:h-fit ring-1 ring-primary-50 ring-offset-8 ring-offset-primary-200">
 				<div class="grid grid-cols-2">
 					<div class="col-span-2 md:col-span-1">
 						<p class=" opacity-90 text-3xl md:text-6xl mt-8 md:mt-12 mb-4 md:mb-10 font-black text-primary-200 ml-4 md:ml-0">Full Stack Developer</p>
