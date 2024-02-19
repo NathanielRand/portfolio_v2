@@ -1,8 +1,7 @@
 <svelte:head>
     <title>Nathaniel Rand | Developer </title>
     <meta name="description" content="Explore the portfolio of Nathaniel Rand, a seasoned full-stack web developer and database engineer based in Charleston, South Carolina. With a decade of hands-on experience, Nathaniel delivers innovative solutions at the intersection of technology and user experience." />
-    <meta name="keywords" content="nathaniel, rand, Nathaniel Rand, remote software developer, Charleston software developer, Full stack web developer, Database engineer, Charleston, South Carolina, Experienced developer, Web development portfolio, Technology solutions, Innovative programming, User-centric design" 
-    />
+    <meta name="keywords" content="nathaniel, rand, Nathaniel Rand, remote software developer, Charleston software developer, Full stack web developer, Database engineer, Charleston, South Carolina, Experienced developer, Web development portfolio, Technology solutions, Innovative programming, User-centric design" />
 </svelte:head>
 
 <script>
@@ -22,8 +21,8 @@
 	import kq_mobile from '$lib/assets/images/kq_mobile.webp';
 	import dontdelete_desktop from '$lib/assets/images/dontdelete_desktop.webp';
 	import dontdelete_mobile from '$lib/assets/images/dontdelete_mobile.webp';
-	import rookbarber from '$lib/assets/images/rook_barber.webp';
-	import siddhantchereddy from '$lib/assets/images/siddhant_chereddy.webp';
+	import testimonial_img_1 from '$lib/assets/images/dr_aisha.png';
+	import testimonial_img_2 from '$lib/assets/images/david_johnson.jpg';
 
 	import { onMount } from 'svelte';
 	import { spring } from 'svelte/motion';
@@ -79,25 +78,13 @@
   Nathaniel Rand Portfolio
 </h6>
 
-
-
-<!-- Slider indicators
-<div class="absolute z-10 flex -translate-x-1/2 bottom-5 left-1/2 space-x-3 rtl:space-x-reverse">
-	<button type="button" class="w-3 h-3 rounded-full" aria-current="true" aria-label="Slide 1" data-carousel-slide-to="0"></button>
+<!-- <div class="absolute z-10 flex -translate-x-1/2 bottom-5 left-1/2 space-x-3 rtl:space-x-reverse">
+	<button type="button" class="text-white bg-white w-3 h-3 rounded-full" aria-current="true" aria-label="Slide 1" data-carousel-slide-to="0"></button>
 	<button type="button" class="w-3 h-3 rounded-full" aria-current="false" aria-label="Slide 2" data-carousel-slide-to="1"></button>
 	<button type="button" class="w-3 h-3 rounded-full" aria-current="false" aria-label="Slide 3" data-carousel-slide-to="2"></button>
 	<button type="button" class="w-3 h-3 rounded-full" aria-current="false" aria-label="Slide 4" data-carousel-slide-to="3"></button>
 	<button type="button" class="w-3 h-3 rounded-full" aria-current="false" aria-label="Slide 5" data-carousel-slide-to="4"></button>
 </div> -->
-
-<!-- svelte-ignore a11y-no-static-element-interactions -->
-<!-- <svg
-	on:mousemove={(e) => coords.set({ x: e.clientX, y: e.clientY })}
-	on:mousedown={() => size.set(30)}
-	on:mouseup={() => size.set(10)}
->
-	<circle cx={$coords.x} cy={$coords.y} r={$size} />
-</svg> -->
 
 <div class="snap-y snap-mandatory h-screen w-screen overflow-scroll">
 	<section id="section-0" data-color="primary-50">
@@ -369,13 +356,13 @@
 							<path d="M6 0H2a2 2 0 0 0-2 2v4a2 2 0 0 0 2 2h4v1a3 3 0 0 1-3 3H2a1 1 0 0 0 0 2h1a5.006 5.006 0 0 0 5-5V2a2 2 0 0 0-2-2Zm10 0h-4a2 2 0 0 0-2 2v4a2 2 0 0 0 2 2h4v1a3 3 0 0 1-3 3h-1a1 1 0 0 0 0 2h1a5.006 5.006 0 0 0 5-5V2a2 2 0 0 0-2-2Z"/>
 						</svg>
 						<blockquote>
-							<p class="text-lg md:text-2xl italic font-medium text-gray-900 dark:text-white">"Flowbite is just awesome. It contains tons of predesigned components and pages starting from login screen to complex dashboard. Perfect choice for your next SaaS application."</p>
+							<p class="text-lg md:text-2xl italic font-medium text-gray-900 dark:text-white">"Before working with Nathaniel, our software development was like a tangled mess of code. He came in, assessed the situation, and implemented a brilliant refactoring solution that not only streamlined our processes but also improved efficiency by 30%. He's a problem-solver, an innovator, and a true asset to any team."</p>
 						</blockquote>
 						<figcaption class="flex items-center justify-center mt-6 space-x-3 rtl:space-x-reverse">
-							<img class="w-6 h-6 rounded-full" src={rookbarber} alt="rook barber profile picture">
+							<img class="w-10 h-10 rounded-full" src={testimonial_img_1} alt="testimonial 1 profile picture">
 							<div class="flex items-center divide-x-2 rtl:divide-x-reverse divide-gray-500 dark:divide-gray-700">
-								<cite class="pe-3 text-xl md:text-2xl font-medium text-gray-900 dark:text-white">Rook Barber</cite>
-								<cite class="ps-3 text-sm text-gray-500 dark:text-gray-400">CEO KQmgmt</cite>
+								<cite class="pe-3 text-xl md:text-2xl font-medium text-gray-900 dark:text-white">Dr. Aisha Kapoor</cite>
+								<cite class="ps-3 text-lg text-gray-500 dark:text-gray-400">Client</cite>
 							</div>
 						</figcaption>
 					</figure>
@@ -386,13 +373,13 @@
 							<path d="M6 0H2a2 2 0 0 0-2 2v4a2 2 0 0 0 2 2h4v1a3 3 0 0 1-3 3H2a1 1 0 0 0 0 2h1a5.006 5.006 0 0 0 5-5V2a2 2 0 0 0-2-2Zm10 0h-4a2 2 0 0 0-2 2v4a2 2 0 0 0 2 2h4v1a3 3 0 0 1-3 3h-1a1 1 0 0 0 0 2h1a5.006 5.006 0 0 0 5-5V2a2 2 0 0 0-2-2Z"/>
 						</svg>
 						<blockquote>
-							<p class="text-lg md:text-2xl italic font-medium text-gray-900 dark:text-white">"Flowbite is just awesome. It contains tons of predesigned components and pages starting from login screen to complex dashboard. Perfect choice for your next SaaS application."</p>
+							<p class="text-lg md:text-2xl italic font-medium text-gray-900 dark:text-white">"Working alongside Nathaniel is an absolute pleasure. He's got this infectious enthusiasm for code that's contagious! He's constantly pushing boundaries, learning new things, and sharing his knowledge with others. He's not just a great developer, he's a fantastic team player who makes coming to work enjoyable."</p>
 						</blockquote>
 						<figcaption class="flex items-center justify-center mt-6 space-x-3 rtl:space-x-reverse">
-							<img class="w-6 h-6 rounded-full" src={siddhantchereddy} alt="siddhant chereddy profile picture">
+							<img class="w-10 h-10 rounded-full" src={testimonial_img_2} alt="testimonial 2 profile picture">
 							<div class="flex items-center divide-x-2 rtl:divide-x-reverse divide-gray-500 dark:divide-gray-700">
-								<cite class="pe-3 text-xl md:text-2xl font-medium text-gray-900 dark:text-white">Sid Chereddy</cite>
-								<cite class="ps-3 text-sm text-gray-500 dark:text-gray-400">CTO Don't Delete Studios</cite>
+								<cite class="pe-3 text-xl md:text-2xl font-medium text-gray-900 dark:text-white">David Johnson</cite>
+								<cite class="ps-3 text-lg text-gray-500 dark:text-gray-400">Senior Software Engineer</cite>
 							</div>
 						</figcaption>
 					</figure>
@@ -409,7 +396,7 @@
 				<div class="col-span-12 md:col-span-5 md:col-start-7 mt-8 mx-4">
 					<div class="card h-fit p-8 ring ring-secondary-100 ring-offset-primary-50 ring-2 ring-offset-8 rounded-xl bg-secondary-100">
 						<div class="card-body">
-							<div class="card-title text-4xl md:text-8xl font-black mb-8 text-center text-primary-100">
+							<div class="card-title text-3xl md:text-8xl font-black mb-8 text-center text-primary-100">
 								Give me a shout
 							</div>
 							<div class="card-content">
