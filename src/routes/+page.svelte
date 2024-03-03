@@ -14,7 +14,6 @@
 	import dontdelete_desktop from '$lib/assets/images/dontdelete_desktop.webp';
 	import dontdelete_mobile from '$lib/assets/images/dontdelete_mobile.webp';
 	import citibot_desktop from '$lib/assets/images/citibot_desktop.webp';
-	import citibot_mobile from '$lib/assets/images/citibot_mobile.webp';
 	import judges_desktop from '$lib/assets/images/judges_desktop.webp';
 	import testimonial_img_1 from '$lib/assets/images/dr_aisha.png';
 	import testimonial_img_2 from '$lib/assets/images/david_johnson.jpg';
