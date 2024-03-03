@@ -13,6 +13,9 @@
 	import kq_mobile from '$lib/assets/images/kq_mobile.webp';
 	import dontdelete_desktop from '$lib/assets/images/dontdelete_desktop.webp';
 	import dontdelete_mobile from '$lib/assets/images/dontdelete_mobile.webp';
+	import citibot_desktop from '$lib/assets/images/citibot_desktop.webp';
+	import citibot_mobile from '$lib/assets/images/citibot_mobile.webp';
+	import judges_desktop from '$lib/assets/images/judges_desktop.webp';
 	import testimonial_img_1 from '$lib/assets/images/dr_aisha.png';
 	import testimonial_img_2 from '$lib/assets/images/david_johnson.jpg';
 
@@ -104,49 +107,49 @@
 	</div>
 </section>
 
-<section id="work" class="px-4 md:px-60 py-14 md:pt-36">
+<section id="work" class="px-4 py-14 md:pt-36 md:px-36">
 	<h2 class="text-[86px] leading-none md:text-9xl font-black text-neumorphism">Recent Work</h2>
 	<p class="text-4xl font-thin my-14 opacity-60">( dozens more avaible upon request :)</p>
 	<div class="grid lg:grid-cols-3 auto-rows-max gap-10 mt-24">
 		<div class="neumorphism h-fit">
 			<a href="https://remotejobs.guru" target="_blank">
-				<div class="card p-8">
+				<div class="card p-6">
 					<img class="w-full h-auto rounded-xl border-2" src={rjg_desktop} alt="remote jobs guru desktop">
 				</div>
 			</a>
 		</div>
 		<div class="neumorphism h-fit">
 			<a href="https://kqmgmt.co" target="_blank">
-				<div class="card p-8">
+				<div class="card p-6">
 					<img class="w-full h-auto rounded-xl border-8" src={kq_desktop} alt="kq mgmt desktop">
 				</div>
 			</a>
 		</div>
 		<div class="neumorphism h-fit">
 			<a href="https://www.dontdelete.studio" target="_blank">
-				<div class="card p-8">
-					<img class="w-fit h-48 rounded-xl ring-1 ring-white ring-offset-8 ring-offset-[#c4c4c4]" src={dontdelete_desktop} alt="dont delete studios desktop">
+				<div class="card p-6">
+					<img class="w-full h-auto rounded-xl ring-1 ring-white ring-offset-8 ring-offset-[#c4c4c4]" src={dontdelete_desktop} alt="dont delete studios desktop">
 				</div>
 			</a>
 		</div>
 		<div class="neumorphism h-fit">
 			<a href="https://www.judgesrescue.org" target="_blank">
-				<div class="card p-8">
-					<img class="w-full h-48 rounded-xl border-8" src="https://morebytes.io/_app/immutable/assets/judges-hero.4019b777.png" alt="judges rescue desktop">
+				<div class="card p-6">
+					<img class="w-full h-auto rounded-xl border-8" src={judges_desktop} alt="judges rescue desktop">
 				</div>
 			</a>
 		</div>
 		<div class="neumorphism h-fit">
 			<a href="https://morebytes.io" target="_blank">
-				<div class="card p-8">
+				<div class="card p-6">
 					<img class="w-full h-auto rounded-xl border-8" src={morebytes_desktop} alt="morebytes desktop">
 				</div>
 			</a>
 		</div>
 		<div class="neumorphism h-fit">
 			<a href="https://www.citibot.io" target="_blank">
-				<div class="card p-8">
-					<img class="w-full h-auto rounded-xl border-8" src="https://morebytes.io/_app/immutable/assets/citibot-hero.bbcf5795.png" alt="citibot desktop">
+				<div class="card p-6">
+					<img class="w-full h-auto rounded-xl border-8" src={citibot_desktop} alt="citibot desktop">
 				</div>
 			</a>
 		</div>
