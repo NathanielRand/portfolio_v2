@@ -22,8 +22,14 @@ const config = {
 					100: '#C17767',
 				}
 			}
-		}
-	}
+		},
+		// fontFamily: {
+        //     'sans': ['Bungee', 'sans-serif'],
+        // }
+	}, 
+	// variants: {
+	// 	extend: {},
+	// },
 };
 
 module.exports = config;

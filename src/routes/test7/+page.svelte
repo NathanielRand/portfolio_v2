@@ -1,9 +1,3 @@
-<svelte:head>
-    <title>Nathaniel Rand | Developer </title>
-    <meta name="description" content="Explore the portfolio of Nathaniel Rand, a seasoned full-stack web developer and database engineer based in Charleston, South Carolina. With a decade of hands-on experience, Nathaniel delivers innovative solutions at the intersection of technology and user experience." />
-    <meta name="keywords" content="nathaniel, rand, Nathaniel Rand, remote software developer, Charleston software developer, Full stack web developer, Database engineer, Charleston, South Carolina, Experienced developer, Web development portfolio, Technology solutions, Innovative programming, User-centric design" />
-</svelte:head>
-
 <script lang="ts">
 	let svgIndex = 0;
 	const svgs = [
@@ -23,15 +17,15 @@
 	}, 2000);
 </script>
 
-<section id="home">
-	<div class="grid grid-cols-1 md:grid-cols-2 p-4 md:px-24 pt-36 md:pt-48 md:mx-4">
+<section>
+	<div class="grid grid-cols-1 md:grid-cols-2 p-4 md:pl-48">
 		<div>
-			<div class="neumorphism h-fit w-full p-10 md:p-16">
+			<div class="neumorphism h-fit w-full p-10">
 				<div class="card">
 					<div class="card-body text-center">
-						<h3 class="card-title text-6xl md:text-5xl lg:text-8xl font-black opacity-60 subpixel-antialiased">Nathaniel Rand</h3>
-						<hr class="w-1/3 md:w-2/3 mx-auto my-8 opacity-60">
-						<h3 class="neumorphism text-2xl lg:text-4xl opacity-60 font-thin mb-12 py-4 uppercase subpixel-antialiased">Software Developer</h3>
+						<h3 class="card-title text-8xl font-black opacity-60">Nathaniel Rand</h3>
+						<hr class="w-1/3 mx-auto my-8 opacity-60">
+						<h3 class="neumorphism text-5xl font-thin opacity-60 mb-12 py-4">Software Developer</h3>
 						<div class="flex flex-wrap h-fit justify-center invert-neumorphism p-4">
 							<svg class="neumorphism p-1 mx-2 h-8 md:h-10 xl:h-10" viewBox="-2.4 -2.4 28.80 28.80" fill="none" xmlns="http://www.w3.org/2000/svg"><g id="SVGRepo_bgCarrier" stroke-width="0"><path transform="translate(-2.4, -2.4), scale(1.7999999999999998)" fill="#ffffff" d="M9.166.33a2.25 2.25 0 00-2.332 0l-5.25 3.182A2.25 2.25 0 00.5 5.436v5.128a2.25 2.25 0 001.084 1.924l5.25 3.182a2.25 2.25 0 002.332 0l5.25-3.182a2.25 2.25 0 001.084-1.924V5.436a2.25 2.25 0 00-1.084-1.924L9.166.33z" strokewidth="0"></path></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <path d="M7.99999 5C7.69206 5 7.4013 5.14187 7.21179 5.38459C7.02228 5.6273 6.95517 5.94379 7.02985 6.24254L8.02985 10.2425C8.14114 10.6877 8.54113 11 8.99999 11H13.8C13.9105 11 14 11.0895 14 11.2V13.5029C14 13.556 13.9789 13.6069 13.9414 13.6444L12.1414 15.4444C12.0633 15.5225 11.9367 15.5225 11.8586 15.4444L9.7071 13.2929C9.31658 12.9024 8.68341 12.9024 8.29289 13.2929C7.90236 13.6834 7.90236 14.3166 8.29289 14.7071L11.2929 17.7071C11.6834 18.0976 12.3166 18.0976 12.7071 17.7071L15.7071 14.7071C15.8946 14.5196 16 14.2652 16 14V10C16 9.44772 15.5523 9 15 9H9.93693C9.84515 9 9.76516 8.93754 9.7429 8.84851L9.3429 7.24851C9.31134 7.12228 9.40681 7 9.53693 7H16C16.5523 7 17 6.55228 17 6C17 5.44772 16.5523 5 16 5H7.99999Z" fill="#0F0F0F"></path> <path fill-rule="evenodd" clip-rule="evenodd" d="M4.30601 1C2.48037 1 1.07798 2.61696 1.33617 4.42426L2.90518 15.4074C3.00667 16.1178 3.35945 16.7683 3.89952 17.2409L10.0245 22.6002C11.1556 23.5899 12.8444 23.5899 13.9755 22.6002L20.1005 17.2409C20.6405 16.7683 20.9933 16.1178 21.0948 15.4074L22.6638 4.42426C22.922 2.61696 21.5196 1 19.694 1H4.30601ZM3.31606 4.14142C3.23 3.53899 3.69746 3 4.30601 3H19.694C20.3025 3 20.77 3.53899 20.6839 4.14142L19.1149 15.1245C19.0811 15.3613 18.9635 15.5782 18.7835 15.7357L12.6585 21.095C12.2815 21.4249 11.7185 21.4249 11.3415 21.095L5.21653 15.7357C5.0365 15.5782 4.91891 15.3613 4.88508 15.1245L3.31606 4.14142Z" fill="#0F0F0F"></path> </g></svg>
 							<svg class="neumorphism p-1 mx-2 h-8 md:h-10 xl:h-10" viewBox="-1.6 -1.6 19.20 19.20" fill="none" xmlns="http://www.w3.org/2000/svg"><g id="SVGRepo_bgCarrier" stroke-width="0"><path transform="translate(-1.6, -1.6), scale(1.2)" fill="#ffffff" d="M9.166.33a2.25 2.25 0 00-2.332 0l-5.25 3.182A2.25 2.25 0 00.5 5.436v5.128a2.25 2.25 0 001.084 1.924l5.25 3.182a2.25 2.25 0 002.332 0l5.25-3.182a2.25 2.25 0 001.084-1.924V5.436a2.25 2.25 0 00-1.084-1.924L9.166.33z" strokewidth="0"></path></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <path fill-rule="nonzero" clip-rule="nonzero" d="M3 1.60001C2.86193 1.60001 2.75 1.71193 2.75 1.85001V11.4003C2.75 11.4896 2.79769 11.5722 2.87509 11.6168L7.73381 14.4194C7.80942 14.463 7.90231 14.464 7.97886 14.4221L13.1201 11.6048C13.2002 11.5609 13.25 11.4769 13.25 11.3856V1.85001C13.25 1.71193 13.1381 1.60001 13 1.60001H3ZM1.25 1.85001C1.25 0.883508 2.0335 0.100006 3 0.100006H13C13.9665 0.100006 14.75 0.883509 14.75 1.85001V11.3856C14.75 12.0248 14.4015 12.6131 13.841 12.9203L8.69968 15.7375C8.16383 16.0311 7.51363 16.024 6.98434 15.7187L2.12562 12.9162C1.58382 12.6037 1.25 12.0258 1.25 11.4003V1.85001ZM5 4.35001C5 3.93579 5.33579 3.60001 5.75 3.60001H10.3654C10.7796 3.60001 11.1154 3.93579 11.1154 4.35001V10.4462C11.1154 10.7302 10.9549 10.9899 10.7008 11.117L8.3931 12.2708C8.18196 12.3764 7.93343 12.3764 7.72228 12.2708L5.41459 11.117C5.1605 10.9899 5 10.7302 5 10.4462V9.86924C5 9.45502 5.33579 9.11924 5.75 9.11924C6.16421 9.11924 6.5 9.45502 6.5 9.86924V9.98263L8.05769 10.7615L9.61539 9.98263V8.31154H7C6.58579 8.31154 6.25 7.97576 6.25 7.56154C6.25 7.14733 6.58579 6.81154 7 6.81154H9.61539V5.10001H5.75C5.33579 5.10001 5 4.76422 5 4.35001Z" fill="#000000"></path> </g></svg>
@@ -43,21 +37,12 @@
 							<svg class="neumorphism p-1 mx-2 h-8 md:h-10 xl:h-10" viewBox="-2.4 -2.4 28.80 28.80" fill="none" xmlns="http://www.w3.org/2000/svg"><g id="SVGRepo_bgCarrier" stroke-width="0"><path transform="translate(-2.4, -2.4), scale(1.7999999999999998)" fill="#ffffff" d="M9.166.33a2.25 2.25 0 00-2.332 0l-5.25 3.182A2.25 2.25 0 00.5 5.436v5.128a2.25 2.25 0 001.084 1.924l5.25 3.182a2.25 2.25 0 002.332 0l5.25-3.182a2.25 2.25 0 001.084-1.924V5.436a2.25 2.25 0 00-1.084-1.924L9.166.33z" strokewidth="0"></path></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <path d="M12 1L24 22H0L12 1Z" fill="#000000"></path> </g></svg>						
 							<svg class="neumorphism p-1 mx-2 h-8 md:h-10 xl:h-10" viewBox="-2.4 -2.4 28.80 28.80" xmlns="http://www.w3.org/2000/svg" fill="#000000"><g id="SVGRepo_bgCarrier" stroke-width="0"><path transform="translate(-2.4, -2.4), scale(1.7999999999999998)" fill="#ffffff" d="M9.166.33a2.25 2.25 0 00-2.332 0l-5.25 3.182A2.25 2.25 0 00.5 5.436v5.128a2.25 2.25 0 001.084 1.924l5.25 3.182a2.25 2.25 0 002.332 0l5.25-3.182a2.25 2.25 0 001.084-1.924V5.436a2.25 2.25 0 00-1.084-1.924L9.166.33z" strokewidth="0"></path></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <defs> <style>.cls-1{fill:#669df6;}.cls-2{fill:#aecbfa;}.cls-3{fill:#4285f4;}</style> </defs> <title>Icon_24px_Firestore_Color</title> <g data-name="Product Icons"> <g data-name="colored-32/firestore"> <g> <path class="cls-1" d="M21,13,12,9v4l9,4Zm0-7L12,2V6l9,4Z"></path> <polygon id="Rectangle-7" class="cls-2" points="3 6 12 2 12 6 3 10 3 6"></polygon> <polygon id="Rectangle-7-2" data-name="Rectangle-7" class="cls-2" points="3 13 12 9 12 13 3 17 3 13"></polygon> <polygon id="Rectangle-7-3" data-name="Rectangle-7" class="cls-3" points="12 18 15.37 16.5 19.88 18.5 12 22 12 18"></polygon> </g> </g> </g> </g></svg>
 						</div>
-						<div class="flex h-fit justify-center mt-12">
-							<svg class="neumorphism p-2 mx-2 h-12 md:h-16" fill="#f2f2f2" role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><title>GitHub</title><path d="M12 .297c-6.63 0-12 5.373-12 12 0 5.303 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61C4.422 18.07 3.633 17.7 3.633 17.7c-1.087-.744.084-.729.084-.729 1.205.084 1.838 1.236 1.838 1.236 1.07 1.835 2.809 1.305 3.495.998.108-.776.417-1.305.76-1.605-2.665-.3-5.466-1.332-5.466-5.93 0-1.31.465-2.38 1.235-3.22-.135-.303-.54-1.523.105-3.176 0 0 1.005-.322 3.3 1.23.96-.267 1.98-.399 3-.405 1.02.006 2.04.138 3 .405 2.28-1.552 3.285-1.23 3.285-1.23.645 1.653.24 2.873.12 3.176.765.84 1.23 1.91 1.23 3.22 0 4.61-2.805 5.625-5.475 5.92.42.36.81 1.096.81 2.22 0 1.606-.015 2.896-.015 3.286 0 .315.21.69.825.57C20.565 22.092 24 17.592 24 12.297c0-6.627-5.373-12-12-12"/></svg>
-							<svg class="neumorphism p-2 mx-2 h-12 md:h-16" fill="#f2f2f2" role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><title>LinkedIn</title><path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/></svg>
-							<svg class="neumorphism p-2 mx-2 h-12 md:h-16" fill="#f2f2f2" role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><title>Instagram</title><path d="M7.0301.084c-1.2768.0602-2.1487.264-2.911.5634-.7888.3075-1.4575.72-2.1228 1.3877-.6652.6677-1.075 1.3368-1.3802 2.127-.2954.7638-.4956 1.6365-.552 2.914-.0564 1.2775-.0689 1.6882-.0626 4.947.0062 3.2586.0206 3.6671.0825 4.9473.061 1.2765.264 2.1482.5635 2.9107.308.7889.72 1.4573 1.388 2.1228.6679.6655 1.3365 1.0743 2.1285 1.38.7632.295 1.6361.4961 2.9134.552 1.2773.056 1.6884.069 4.9462.0627 3.2578-.0062 3.668-.0207 4.9478-.0814 1.28-.0607 2.147-.2652 2.9098-.5633.7889-.3086 1.4578-.72 2.1228-1.3881.665-.6682 1.0745-1.3378 1.3795-2.1284.2957-.7632.4966-1.636.552-2.9124.056-1.2809.0692-1.6898.063-4.948-.0063-3.2583-.021-3.6668-.0817-4.9465-.0607-1.2797-.264-2.1487-.5633-2.9117-.3084-.7889-.72-1.4568-1.3876-2.1228C21.2982 1.33 20.628.9208 19.8378.6165 19.074.321 18.2017.1197 16.9244.0645 15.6471.0093 15.236-.005 11.977.0014 8.718.0076 8.31.0215 7.0301.0839m.1402 21.6932c-1.17-.0509-1.8053-.2453-2.2287-.408-.5606-.216-.96-.4771-1.3819-.895-.422-.4178-.6811-.8186-.9-1.378-.1644-.4234-.3624-1.058-.4171-2.228-.0595-1.2645-.072-1.6442-.079-4.848-.007-3.2037.0053-3.583.0607-4.848.05-1.169.2456-1.805.408-2.2282.216-.5613.4762-.96.895-1.3816.4188-.4217.8184-.6814 1.3783-.9003.423-.1651 1.0575-.3614 2.227-.4171 1.2655-.06 1.6447-.072 4.848-.079 3.2033-.007 3.5835.005 4.8495.0608 1.169.0508 1.8053.2445 2.228.408.5608.216.96.4754 1.3816.895.4217.4194.6816.8176.9005 1.3787.1653.4217.3617 1.056.4169 2.2263.0602 1.2655.0739 1.645.0796 4.848.0058 3.203-.0055 3.5834-.061 4.848-.051 1.17-.245 1.8055-.408 2.2294-.216.5604-.4763.96-.8954 1.3814-.419.4215-.8181.6811-1.3783.9-.4224.1649-1.0577.3617-2.2262.4174-1.2656.0595-1.6448.072-4.8493.079-3.2045.007-3.5825-.006-4.848-.0608M16.953 5.5864A1.44 1.44 0 1 0 18.39 4.144a1.44 1.44 0 0 0-1.437 1.4424M5.8385 12.012c.0067 3.4032 2.7706 6.1557 6.173 6.1493 3.4026-.0065 6.157-2.7701 6.1506-6.1733-.0065-3.4032-2.771-6.1565-6.174-6.1498-3.403.0067-6.156 2.771-6.1496 6.1738M8 12.0077a4 4 0 1 1 4.008 3.9921A3.9996 3.9996 0 0 1 8 12.0077"/></svg>
-							<svg class="neumorphism p-2 mx-2 h-12 md:h-16" fill="#f2f2f2" role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><title>X</title><path d="M18.901 1.153h3.68l-8.04 9.19L24 22.846h-7.406l-5.8-7.584-6.638 7.584H.474l8.6-9.83L0 1.154h7.594l5.243 6.932ZM17.61 20.644h2.039L6.486 3.24H4.298Z"/></svg>
-						</div>
 					</div>
 				</div>
 			</div>
 		</div>
-		<div class="mx-auto mt-16 md:mt-24 text-center leading-none">
-			<p class="text-neumorphism text-9xl md:text-5xl lg:text-9xl font-black opacity-60 subpixel-antialiased uppercase">8<small class="font-thin text-black opacity-60">+</small></p>
-			<p class="text-6xl md:text-5xl lg:text-6xl font-thin opacity-60 subpixel-antialiased uppercase">Years</p>
-			<p class="text-neumorphism text-7xl md:text-5xl lg:text-7xl font-black opacity-60 subpixel-antialiased uppercase">Dev</p>
-			<div class="pl w-56 h-56 mx-auto mt-16" style="border-radius:100%">
+		<div class="mx-auto mt-36">
+			<div class="pl">
 				<div class="pl__dot"></div>
 				<div class="pl__dot"></div>
 				<div class="pl__dot"></div>
@@ -70,7 +55,7 @@
 				<div class="pl__dot"></div>
 				<div class="pl__dot"></div>
 				<div class="pl__dot"></div>
-				<div class="pl__text border-gray-300 border-2 neumorphism">
+				<div class="pl__text neumorphism">
 					{@html svgs[svgIndex]}
 				</div>
 			</div>
@@ -78,148 +63,17 @@
 	</div>
 </section>
 
-<section id="about" class="px-4 md:px-60 py-14 md:pt-56">
-	<div class="grid grid-flow-row auto-rows-max gap-10 text-center ">
-		<h2 class="text-8xl md:text-9xl font-black text-neumorphism mb-16">About Me</h2>
-		<p class="text-4xl md:text-6xl font-black text-black opacity-70">For nearly a decade, I've navigated the trenches of large enterprises and helped fuel the fire of several promising startups.</p>
-		<svg class="mx-auto my-12 flicker" width="124" height="124" viewBox="-6.48 0 53.734 53.734" xmlns="http://www.w3.org/2000/svg">
-			<g data-name="Group 28">
-				<path stroke-width="0.6" data-name="Path 70" d="M11.516 48.313S-7.65 33.501 8.594 12.438c0 0-.018 15.3 6.209 10.135S25.714 5.238 27.635 1.997c0 0 10.9 12.683 11.141 25.747-.226 12.15-3.969 18.99-10.377 22.693a17.4 17.4 0 0 1-16.883-2.124" fill="none" stroke="#231f20" stroke-linecap="round" stroke-linejoin="round"/>
-				<path data-name="Path 71" d="M27.32 36.05a5.178 5.178 0 1 1-5.177-5.178 5.177 5.177 0 0 1 5.177 5.178" fill="#d1d3d4"/>
-				<path data-name="Path 72" d="M31.904 26.861a2.292 2.292 0 1 1-2.291-2.292 2.29 2.29 0 0 1 2.291 2.292" fill="#d1d3d4"/>
-			</g>
-		</svg>
-		<p class="text-4xl md:text-6xl font-thin text-black opacity-70">My passion lies in crafting elegant <c class="text-white">&#60</c>code <c class="text-white">/&#62</c> that solves real-world problems, like orchestrating a database of nearly half a <b class="font-black underline decoration-4 underline-offset-8">billion</b> people or processing <b class="font-black underline decoration-4 underline-offset-8">millions</b> of dollars in donations with hand-crafted APIs.</p>
-	</div>
-</section>
-
-<section id="work" class="px-4 md:px-60 py-14 md:pt-36">
-	<h2 class="text-[86px] leading-none md:text-9xl font-black text-neumorphism">Recent Work</h2>
-	<p class="text-4xl font-thin my-14 opacity-60">( dozens more avaible upon request :)</p>
-	<div class="grid lg:grid-cols-3 auto-rows-max gap-10 mt-24">
-		<div class="neumorphism h-fit">
-			<div class="card p-8">
-				<img class="w-full h-auto rounded-xl border-2" src="https://www.nathanielrand.me/_app/immutable/assets/rjg_desktop.5b7f88b4.webp" alt="portfolio 1">
-			</div>
-		</div>
-		<div class="neumorphism h-fit">
-			<div class="card p-8">
-				<img class="w-full h-auto rounded-xl border-8" src="https://www.nathanielrand.me/_app/immutable/assets/kq_desktop.453665ea.webp" alt="portfolio 2">
-			</div>
-		</div>
-		<div class="neumorphism h-fit">
-			<div class="card p-8">
-				<img class="w-fit h-48 rounded-xl ring-1 ring-white ring-offset-8 ring-offset-[#c4c4c4]" src="https://morebytes.io/_app/immutable/assets/dont-delete-studios-home-425x190.16238521.png" alt="portfolio 3">
-			</div>
-		</div>
-		<div class="neumorphism h-fit">
-			<div class="card p-8">
-				<img class="w-full h-48 rounded-xl border-8" src="https://morebytes.io/_app/immutable/assets/judges-hero.4019b777.png" alt="portfolio 2">
-			</div>
-		</div>
-		<div class="neumorphism h-fit">
-			<div class="card p-8">
-				<img class="w-full h-auto rounded-xl border-8" src="https://www.nathanielrand.me/_app/immutable/assets/morebytes_desktop.bd70ac2b.webp" alt="portfolio 2">
-			</div>
-		</div>
-		<div class="neumorphism h-fit">
-			<div class="card p-8">
-				<img class="w-full h-auto rounded-xl border-8" src="https://morebytes.io/_app/immutable/assets/citibot-hero.bbcf5795.png" alt="portfolio 2">
-			</div>
-		</div>
-	</div>
-</section>
-
-<section id="testimonials" class="px-4 md:px-36 py-14 md:pt-36">
-	<h2 class="text-8xl md:text-9xl font-black text-neumorphism mb-16 md:mb-28 text-end">What They Say</h2>
-	<div class="grid grid-flow-row auto-rows-max gap-10">
-		<div class="col-span-10 md:col-span-4 md:col-start-2 mb-12 md:mb-0 py-8 px-6 invert-neumorphism">
-			<figure class="max-w-screen-md mx-auto text-center">
-				<svg class="w-6 h-6 md:w-10 md:h-10 mx-auto mb-3 text-black opacity-60" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 18 14">
-					<path d="M6 0H2a2 2 0 0 0-2 2v4a2 2 0 0 0 2 2h4v1a3 3 0 0 1-3 3H2a1 1 0 0 0 0 2h1a5.006 5.006 0 0 0 5-5V2a2 2 0 0 0-2-2Zm10 0h-4a2 2 0 0 0-2 2v4a2 2 0 0 0 2 2h4v1a3 3 0 0 1-3 3h-1a1 1 0 0 0 0 2h1a5.006 5.006 0 0 0 5-5V2a2 2 0 0 0-2-2Z"/>
-				</svg>
-				<blockquote>
-					<p class="text-lg md:text-3xl italic font-thin text-black opacity-90">"Before working with Nathaniel, our software development was like a tangled mess of code. He came in, assessed the situation, and implemented a brilliant refactoring solution that not only streamlined our processes but also improved efficiency by 30%. He's a problem-solver, an innovator, and a true asset to any team."</p>
-				</blockquote>
-				<figcaption class="flex items-center justify-center mt-6 space-x-3 rtl:space-x-reverse">
-					<!-- <img class="w-10 h-10 rounded-full" src=# alt="testimonial 1 profile picture"> -->
-					<div class="flex items-center divide-x-2 rtl:divide-x-reverse divide-gray-500 dark:divide-gray-700">
-						<cite class="pe-3 text-xl md:text-2xl font-black text-black opacity-60">Dr. Aisha Kapoor</cite>
-						<cite class="ps-3 text-xl text-white">Client</cite>
-					</div>
-				</figcaption>
-			</figure>
-		</div>
-		<div class="col-span-10 md:col-span-4 md:col-start-7 py-8 px-6 invert-neumorphism">
-			<figure class="max-w-screen-md mx-auto text-center">
-				<svg class="w-6 h-6 md:w-10 md:h-10 mx-auto mb-3 text-black opacity-60" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 18 14">
-					<path d="M6 0H2a2 2 0 0 0-2 2v4a2 2 0 0 0 2 2h4v1a3 3 0 0 1-3 3H2a1 1 0 0 0 0 2h1a5.006 5.006 0 0 0 5-5V2a2 2 0 0 0-2-2Zm10 0h-4a2 2 0 0 0-2 2v4a2 2 0 0 0 2 2h4v1a3 3 0 0 1-3 3h-1a1 1 0 0 0 0 2h1a5.006 5.006 0 0 0 5-5V2a2 2 0 0 0-2-2Z"/>
-				</svg>
-				<blockquote>
-					<p class="text-lg md:text-3xl italic font-thin text-black opacity-90">"Working alongside Nathaniel is an absolute pleasure. He's got this infectious enthusiasm for code that's contagious! He's constantly pushing boundaries, learning new things, and sharing his knowledge with others. He's not just a great developer, he's a fantastic team player who makes coming to work enjoyable."</p>
-				</blockquote>
-				<figcaption class="flex items-center justify-center mt-6 space-x-3 rtl:space-x-reverse">
-					<!-- <img class="w-10 h-10 rounded-full" src=# alt="testimonial 2 profile picture"> -->
-					<div class="flex items-center divide-x-2 rtl:divide-x-reverse divide-gray-500 dark:divide-gray-700">
-						<cite class="pe-3 text-xl md:text-2xl font-black text-black opacity-60">David Johnson</cite>
-						<cite class="ps-3 text-lg text-white">Senior Software Engineer</cite>
-					</div>
-				</figcaption>
-			</figure>
-		</div>
-	</div>
-</section>
-
-<section id="contact" class="md:pt-52 pb-44">
-	<div class="grid grid-cols-12">
-		<div class="col-span-12 md:col-span-4 md:col-start-2">
-			<h3 class="text-neumorphism text-[66px] md:text-9xl text-accent-100 font-black pt-14 pb-8 md:py-14 text-center md:text-end">Contact</h3>
-			<div class="flex h-fit justify-center md:justify-end pb-6 md:pb-0">
-				<svg class="neumorphism p-2 mx-3 mb-4 w-auto h-12 md:h-16" fill="#f2f2f2" role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><title>GitHub</title><path d="M12 .297c-6.63 0-12 5.373-12 12 0 5.303 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61C4.422 18.07 3.633 17.7 3.633 17.7c-1.087-.744.084-.729.084-.729 1.205.084 1.838 1.236 1.838 1.236 1.07 1.835 2.809 1.305 3.495.998.108-.776.417-1.305.76-1.605-2.665-.3-5.466-1.332-5.466-5.93 0-1.31.465-2.38 1.235-3.22-.135-.303-.54-1.523.105-3.176 0 0 1.005-.322 3.3 1.23.96-.267 1.98-.399 3-.405 1.02.006 2.04.138 3 .405 2.28-1.552 3.285-1.23 3.285-1.23.645 1.653.24 2.873.12 3.176.765.84 1.23 1.91 1.23 3.22 0 4.61-2.805 5.625-5.475 5.92.42.36.81 1.096.81 2.22 0 1.606-.015 2.896-.015 3.286 0 .315.21.69.825.57C20.565 22.092 24 17.592 24 12.297c0-6.627-5.373-12-12-12"/></svg>
-				<svg class="neumorphism p-2 mx-3 mb-4 w-auto h-12 md:h-16" fill="#f2f2f2" role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><title>LinkedIn</title><path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/></svg>
-				<svg class="neumorphism p-2 mx-3 mb-4 w-auto h-12 md:h-16" fill="#f2f2f2" role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><title>Instagram</title><path d="M7.0301.084c-1.2768.0602-2.1487.264-2.911.5634-.7888.3075-1.4575.72-2.1228 1.3877-.6652.6677-1.075 1.3368-1.3802 2.127-.2954.7638-.4956 1.6365-.552 2.914-.0564 1.2775-.0689 1.6882-.0626 4.947.0062 3.2586.0206 3.6671.0825 4.9473.061 1.2765.264 2.1482.5635 2.9107.308.7889.72 1.4573 1.388 2.1228.6679.6655 1.3365 1.0743 2.1285 1.38.7632.295 1.6361.4961 2.9134.552 1.2773.056 1.6884.069 4.9462.0627 3.2578-.0062 3.668-.0207 4.9478-.0814 1.28-.0607 2.147-.2652 2.9098-.5633.7889-.3086 1.4578-.72 2.1228-1.3881.665-.6682 1.0745-1.3378 1.3795-2.1284.2957-.7632.4966-1.636.552-2.9124.056-1.2809.0692-1.6898.063-4.948-.0063-3.2583-.021-3.6668-.0817-4.9465-.0607-1.2797-.264-2.1487-.5633-2.9117-.3084-.7889-.72-1.4568-1.3876-2.1228C21.2982 1.33 20.628.9208 19.8378.6165 19.074.321 18.2017.1197 16.9244.0645 15.6471.0093 15.236-.005 11.977.0014 8.718.0076 8.31.0215 7.0301.0839m.1402 21.6932c-1.17-.0509-1.8053-.2453-2.2287-.408-.5606-.216-.96-.4771-1.3819-.895-.422-.4178-.6811-.8186-.9-1.378-.1644-.4234-.3624-1.058-.4171-2.228-.0595-1.2645-.072-1.6442-.079-4.848-.007-3.2037.0053-3.583.0607-4.848.05-1.169.2456-1.805.408-2.2282.216-.5613.4762-.96.895-1.3816.4188-.4217.8184-.6814 1.3783-.9003.423-.1651 1.0575-.3614 2.227-.4171 1.2655-.06 1.6447-.072 4.848-.079 3.2033-.007 3.5835.005 4.8495.0608 1.169.0508 1.8053.2445 2.228.408.5608.216.96.4754 1.3816.895.4217.4194.6816.8176.9005 1.3787.1653.4217.3617 1.056.4169 2.2263.0602 1.2655.0739 1.645.0796 4.848.0058 3.203-.0055 3.5834-.061 4.848-.051 1.17-.245 1.8055-.408 2.2294-.216.5604-.4763.96-.8954 1.3814-.419.4215-.8181.6811-1.3783.9-.4224.1649-1.0577.3617-2.2262.4174-1.2656.0595-1.6448.072-4.8493.079-3.2045.007-3.5825-.006-4.848-.0608M16.953 5.5864A1.44 1.44 0 1 0 18.39 4.144a1.44 1.44 0 0 0-1.437 1.4424M5.8385 12.012c.0067 3.4032 2.7706 6.1557 6.173 6.1493 3.4026-.0065 6.157-2.7701 6.1506-6.1733-.0065-3.4032-2.771-6.1565-6.174-6.1498-3.403.0067-6.156 2.771-6.1496 6.1738M8 12.0077a4 4 0 1 1 4.008 3.9921A3.9996 3.9996 0 0 1 8 12.0077"/></svg>
-				<svg class="neumorphism p-2 mx-3 mb-4 w-auto h-12 md:h-16" fill="#f2f2f2" role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><title>X</title><path d="M18.901 1.153h3.68l-8.04 9.19L24 22.846h-7.406l-5.8-7.584-6.638 7.584H.474l8.6-9.83L0 1.154h7.594l5.243 6.932ZM17.61 20.644h2.039L6.486 3.24H4.298Z"/></svg>
-			</div>
-			<div class="text-3xl md:text-4xl font-thin mb-8 text-center md:text-end text-black opacity-60 tracking-none">
-				Find me on the socials
-				<c class="font-black md:text-4xl">or</c>
-				<br> send me a message here.
-			</div>
-		</div>
-		<div class="col-span-12 md:col-span-5 md:col-start-7 md:mt-8 md:mx-4">
-			<div class="card h-fit p-8 rounded-xl">
-				<div class="card-body">
-					<div class="card-content">
-						<form action="https://api.web3forms.com/submit" method="POST" class="max-w-md mx-auto">
-							<input type="hidden" name="access_key" value="a4479c41-a62f-4c3a-87f8-a8d753b56bdb">
-							<input type="hidden" name="subject" value="New Contact from Portfolio Site">
-							<input type="hidden" name="from_name" value="Nathaniel Rand Portfolio">
-							<div class="mb-5">
-								<input type="text" id="name" name="name" placeholder="Name" class="invert-neumorphism border-[#c4c4c4] text-2xl focus:border-white block w-full px-6 py-4 font-thin" required>
-							</div>
-							<div class="mb-5">
-								<input type="email" id="email" name="email" placeholder="Email" class="invert-neumorphism border-[#c4c4c4] text-2xl focus:border-white block w-full px-6 py-4 font-thin" required>
-							</div>
-							<div class="mb-4">
-								<textarea id="message" rows="4" name="message" class="textarea invert-neumorphism border-[#c4c4c4] text-2xl focus:border-white block w-full px-6 py-4 font-thin" placeholder="Write your inquiry here..." required></textarea>
-							</div>
-							<div class="h-captcha" data-captcha="true"></div>
-							<input type="checkbox" name="botcheck" class="hidden" style="display: none;">
-							<button type="submit" class="neumorphism text-2xl text-white uppercase font-black rounded-xl w-full sm:w-auto px-8 mt-3 px-6 py-4">Send it</button>
-						</form>
-						<script src="https://web3forms.com/client/script.js" async defer></script>
-					</div>
-				</div>
-			</div>
-		</div>
-	</div>
-	<p class="text-center pt-28 md:pt-72 text-5xl font-thin text-black opacity-50">The End</p>
-</section>
-
 <style>
 	section {
 		background: #c4c4c4;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		height: 100vh;
+		margin: 0;
+	
 	}
+
 	/* Neumorphism */
 	.neumorphism {
 		border-radius: 50px;
@@ -227,71 +81,20 @@
 		box-shadow:  -6px 6px 12px #a7a7a7,
 					6px -6px 12px #e1e1e1;
 	}
-	/* Neumorphism Hover*/
 	.neumorphism:hover {
 		border-radius: 50px;
 		background: #c4c4c4;
 		box-shadow: inset -6px 6px 12px #a7a7a7,
             inset 6px -6px 12px #e1e1e1;
 	}
-	/* Neumorphism Inverted*/
 	.invert-neumorphism {
 		border-radius: 50px;
 		background: #c4c4c4;
 		box-shadow: inset -6px 6px 12px #a7a7a7,
 					inset 6px -6px 12px #e1e1e1;
-		
-	}
-	.textarea {
-		border-radius: 10px;
-	}
-	:root {
-    --colorMain: #d1d1d1;
-    --brShadow: -6px 6px 15px rgba(0,0,0,0.5);
-    --tlShadow: 6px -6px 15px rgba(255,255,255,0.8);
-    }
-	/* Neumorphism Text */
-    .text-neumorphism {
-        color: var(--colorMain);
-        letter-spacing: 0.03em;
-        text-transform: uppercase;
-        text-shadow: var(--brShadow), 
-                    var(--tlShadow);
-        position: relative;
-        
-        &::before, &::after {
-            position: absolute;
-            background: var(--colorMain);
-            content: '';
-            border-radius: 10%;
-        
-        }
-    }
-
-	/* Flame SVG Flicker */
-	@keyframes flicker {
-		0% { opacity: 1; transform: scale(1); }
-		50% { opacity: 0.5; transform: scale(1.035); }
-		100% { opacity: 1; transform: scale(1); }
-	}
-	@keyframes flicker-scale-more {
-		0% { opacity: 1; transform: scale(1); }
-		50% { opacity: 0.5; transform: scale(1.35); }
-		100% { opacity: 1; transform: scale(1); }
-	}
-	[data-name="Path 70"] {
-		animation: flicker 3s infinite;
-	}
-	[data-name="Path 71"] {
-		animation: flicker-scale-more 4s infinite;
-		transform-origin: 50%;
-	}
-	[data-name="Path 72"] {
-		animation: flicker-scale-more 2s infinite;
-		transform-origin: 50% 50%;
 	}
 
-	/* Skill Rotator Dial */
+	/* Loading Dial */
 	.pl {
 		box-shadow: 2em 0 2em rgba(0, 0, 0, 0.2) inset, -2em 0 2em rgba(255, 255, 255, 0.1) inset;
 		display: flex;
@@ -301,11 +104,13 @@
 		letter-spacing: 0.1em;
 		text-transform: uppercase;
 		transform: rotateX(30deg) rotateZ(45deg);
+		width: 14em;
+		height: 14em;
 		color: white;
 	}
 
 	.pl, .pl__dot {
-		border-radius: 15%;
+		border-radius: 50%;
 	}
 
 	.pl__dot {
@@ -344,7 +149,7 @@
 		animation-name: pushInOut2724;
 		background-color: var(--primary1);
 		border-radius: 0.75em;
-		box-shadow: 0.1em 0.3em 0.2em rgba(255, 255, 255, 0.4) inset, 0 -0.4em 0.2em #2e3138 inset, 0 -10em 0.25em rgba(0, 0, 0, 0.3) inset;
+		box-shadow: 0.1em 0.3em 0.2em rgba(255, 255, 255, 0.4) inset, 0 -0.4em 0.2em #2e3138 inset, 0 -1em 0.25em rgba(0, 0, 0, 0.3) inset;
 		bottom: 0;
 		clip-path: polygon(0 75%, 100% 75%, 100% 100%, 0 100%);
 		height: 3em;
