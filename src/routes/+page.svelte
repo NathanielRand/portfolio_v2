@@ -272,7 +272,7 @@
 		border-radius: 10px;
 	}
 
-	/* :root {
+	:root {
     --colorMain: #d1d1d1;
     --brShadow: -6px 6px 15px rgba(0,0,0,0.5);
     --tlShadow: 6px -6px 15px rgba(255,255,255,0.8);
@@ -291,7 +291,7 @@
 		background: var(--colorMain);
 		content: '';
 		border-radius: 10%;
-	} */
+	}
 
 	/* Flame SVG Flicker */
 	@keyframes flicker {
