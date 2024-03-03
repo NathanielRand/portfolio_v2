@@ -242,15 +242,16 @@
 					inset 6px -6px 12px #e1e1e1;
 		
 	}
+
 	.textarea {
 		border-radius: 10px;
 	}
-	:root {
+
+	/* :root {
     --colorMain: #d1d1d1;
     --brShadow: -6px 6px 15px rgba(0,0,0,0.5);
     --tlShadow: 6px -6px 15px rgba(255,255,255,0.8);
     }
-	/* Neumorphism Text */
 	.text-neumorphism {
 		color: var(--colorMain);
 		letter-spacing: 0.03em;
@@ -259,14 +260,13 @@
 					var(--tlShadow);
 		position: relative;
 	}
-
 	.text-neumorphism::before,
 	.text-neumorphism::after {
 		position: absolute;
 		background: var(--colorMain);
 		content: '';
 		border-radius: 10%;
-	}
+	} */
 
 	/* Flame SVG Flicker */
 	@keyframes flicker {
