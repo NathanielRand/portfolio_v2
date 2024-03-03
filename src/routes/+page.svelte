@@ -251,22 +251,22 @@
     --tlShadow: 6px -6px 15px rgba(255,255,255,0.8);
     }
 	/* Neumorphism Text */
-    .text-neumorphism {
-        color: var(--colorMain);
-        letter-spacing: 0.03em;
-        text-transform: uppercase;
-        text-shadow: var(--brShadow), 
-                    var(--tlShadow);
-        position: relative;
-        
-        &::before, &::after {
-            position: absolute;
-            background: var(--colorMain);
-            content: '';
-            border-radius: 10%;
-        
-        }
-    }
+	.text-neumorphism {
+		color: var(--colorMain);
+		letter-spacing: 0.03em;
+		text-transform: uppercase;
+		text-shadow: var(--brShadow), 
+					var(--tlShadow);
+		position: relative;
+	}
+
+	.text-neumorphism::before,
+	.text-neumorphism::after {
+		position: absolute;
+		background: var(--colorMain);
+		content: '';
+		border-radius: 10%;
+	}
 
 	/* Flame SVG Flicker */
 	@keyframes flicker {
