@@ -269,7 +269,7 @@
 	} */
 
 	/* Flame SVG Flicker */
-	@keyframes flicker {
+	/* @keyframes flicker {
 		0% { opacity: 1; transform: scale(1); }
 		50% { opacity: 0.5; transform: scale(1.035); }
 		100% { opacity: 1; transform: scale(1); }
@@ -289,10 +289,10 @@
 	[data-name="Path 72"] {
 		animation: flicker-scale-more 2s infinite;
 		transform-origin: 50% 50%;
-	}
+	} */
 
 	/* Skill Rotator Dial */
-	.pl {
+	/* .pl {
 		box-shadow: 2em 0 2em rgba(0, 0, 0, 0.2) inset, -2em 0 2em rgba(255, 255, 255, 0.1) inset;
 		display: flex;
 		justify-content: center;
@@ -466,10 +466,10 @@
 		position: relative;
 		text-shadow: 0 0 0.1em var(--fg-t);
 		transform: rotateZ(-45deg);
-	}
+	} */
 
 	/* Animations */
-	@keyframes shadow724 {
+	/* @keyframes shadow724 {
 		from {
 			animation-timing-function: ease-in;
 			box-shadow: 0.1em 0.1em 0 0.1em black, 0.3em 0 0.3em rgba(0, 0, 0, 0.3);
@@ -521,6 +521,6 @@
 			background-color: var(--bg);
 			clip-path: polygon(0 75%, 100% 75%, 100% 100%, 0 100%);
 		}
-	}
+	} */
 
 </style>
