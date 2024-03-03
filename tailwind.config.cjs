@@ -23,13 +23,7 @@ const config = {
 				}
 			}
 		},
-		// fontFamily: {
-        //     'sans': ['Bungee', 'sans-serif'],
-        // }
-	}, 
-	// variants: {
-	// 	extend: {},
-	// },
+	}
 };
 
 module.exports = config;
