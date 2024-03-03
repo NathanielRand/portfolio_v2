@@ -63,7 +63,7 @@
                     6px -6px 12px #e1e1e1;
     }
 
-    :root {
+    /* :root {
     --colorMain: #d2d2d2;
     --brShadow: -6px 6px 15px rgba(0,0,0,0.5);
     --tlShadow: 6px -6px 15px rgba(255,255,255,0.8);
@@ -84,6 +84,6 @@
         background: var(--colorMain);
         content: '';
         border-radius: 10%;
-    }
+    } */
 
 </style>
